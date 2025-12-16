@@ -1,2 +1,20 @@
 This is the repository relating to the Mastersthesis on LLM-Augmented Time Series Forecasting for Car
 Rental Cost per Click.
+The *5 Methods* investigated in this thesis are:
+
+• RQ1 What is the incremental value of “semantic competition” information (neighbour
+CPC signals) and recency-sensitive weighting for improving CPC forecast performance
+and how does that value differ across model families (Prophet, TimeGPT, Moirai)?
+• RQ2: To what extent can Dynamic Time Warping–based neighbor selection improve
+keyword-level CPC forecasting accuracy by integrating CPC signals from temporally
+similar keywords, compared to models relying solely on autoregressive CPC histories?
+• RQ3: Can the accuracy of keyword-level CPC forecasting be enhanced by modeling
+localized competitive dynamics through the extraction of geographical intent?
+• RQ4: Does incorporating an LLM-derived semantic keyword graph into spatio-temporal
+graph neural networks improve CPC forecasting accuracy and robustness across multiple
+forecast horizons, compared to both non-graph baselines and purely data-driven graph
+learning approaches?
+• RQ5 To what extent does explicitly modeling cross-domain competition through a fixed
+binary graph improve the accuracy of CPC forecasting when using spatiotemporal graph
+neural networks, compared to models that do not encode competitive structure?
+
