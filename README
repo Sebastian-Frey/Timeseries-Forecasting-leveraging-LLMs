@@ -13,7 +13,7 @@ localized competitive dynamics through the extraction of geographical intent?
 • RQ4: Does incorporating an LLM-derived semantic keyword graph into spatio-temporal
 graph neural networks improve CPC forecasting accuracy and robustness across multiple
 forecast horizons, compared to both non-graph baselines and purely data-driven graph
-learning approaches?
+learning approaches? 
 • RQ5 To what extent does explicitly modeling cross-domain competition through a fixed
 binary graph improve the accuracy of CPC forecasting when using spatiotemporal graph
 neural networks, compared to models that do not encode competitive structure?
