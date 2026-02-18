@@ -13,11 +13,11 @@ from tqdm import tqdm
 
 # --- Input Source ---
 # *** IMPORTANT: Update this path to your new unique keyword list ***
-PRESELECTED_KEYWORDS_CSV_PATH = 'data/sebs_unique_keywords_ddf.csv' 
-KEYWORDS_CSV_COLUMN_NAME = "keyword"
+PRESELECTED_KEYWORDS_CSV_PATH = 'data/unique_keyword_domains.csv'  # Path to CSV containing unique keyword-domain combinations
+KEYWORDS_CSV_COLUMN_NAME = "keyword-domain"
 
 # --- Graph & Output Config ---
-OUTPUT_BASE_DIR = "data/sebs_keyword_graph_knn_multiple"
+OUTPUT_BASE_DIR = "data/keyword_domain_graph_knn_multiple"
 NLP_MODEL_NAME = 'all-MiniLM-L6-v2'
 K_VALUES = [3, 5, 7, 10, 20]  # Generate graphs for multiple K values
 
