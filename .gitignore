@@ -1,5 +1,7 @@
-# data folder
+# data folders
 /data/
+/results/tensors/
+/results/output/
 
 # rest of python .gitignore template
 # Byte-compiled / optimized / DLL files
