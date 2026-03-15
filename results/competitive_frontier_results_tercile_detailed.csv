@@ -1,0 +1,706 @@
+exp_group,experiment,feature_set,feature_set_label,model,horizon,seg_type,segment,RMSE,MAE,sMAPE,med_node_RMSE,n_keywords
+exp1_tensors,exp1_tensors,all_features,All Features,A3TGCN,1,tercile,High,1.9612223285115336,1.1863820016351991,46.716184085238055,1.0552811576489012,604
+exp2_tensors,exp2_tensors,all_features,All Features,A3TGCN,1,tercile,High,1.9847555261378966,1.204956750821061,47.196187509392345,1.0933994415449455,604
+ablation_tensors,all_features,all_features,All Features,AGCRN,1,tercile,High,1.6617154065555215,0.9574954699581932,38.147345895462934,0.9271061858163842,604
+exp1_tensors,exp1_tensors,all_features,All Features,AGCRN,1,tercile,High,1.6454101254739686,0.9466283205391478,37.5131031414732,0.9321856726632429,604
+exp2_tensors,exp2_tensors,all_features,All Features,AGCRN,1,tercile,High,1.6727450551846075,0.9604197842204424,37.5643166425151,0.9373837678098238,604
+ablation_tensors,all_features,all_features,All Features,DCRNN,1,tercile,High,1.6032720249485979,0.9084445524290072,35.36188573923789,0.8491483894625402,604
+exp1_tensors,exp1_tensors,all_features,All Features,DCRNN,1,tercile,High,1.5953395790418556,0.9184603760798626,35.542071624620945,0.8629714654535365,604
+exp2_tensors,exp2_tensors,all_features,All Features,DCRNN,1,tercile,High,1.591085927296259,0.9052029008390381,35.27966088584345,0.852530854671168,604
+ablation_tensors,all_features,all_features,All Features,GConvLSTM,1,tercile,High,1.7717650387493538,1.01062652626098,38.970037467864124,0.9280880388141031,604
+exp1_tensors,exp1_tensors,all_features,All Features,GConvLSTM,1,tercile,High,1.6780630000657437,0.9469072845812858,36.73879332351719,0.8940340982800801,604
+exp2_tensors,exp2_tensors,all_features,All Features,GConvLSTM,1,tercile,High,1.6981377073980433,0.956800961241887,36.89941046878143,0.9096889625753292,604
+ablation_tensors,all_features,all_features,All Features,GraphWaveNet,1,tercile,High,1.6279254191133212,0.938983224033261,36.407698885846195,0.9068057559906479,604
+exp1_tensors,exp1_tensors,all_features,All Features,GraphWaveNet,1,tercile,High,1.6353684009282898,0.9441590295659872,36.59514807830008,0.8793654644321309,604
+exp2_tensors,exp2_tensors,all_features,All Features,GraphWaveNet,1,tercile,High,1.642917439381917,0.92914864103107,36.11741776074041,0.8814462177345992,604
+exp2_tensors,exp2_tensors,all_features,All Features,MTGNN,1,tercile,High,1.7420724714289946,1.0450199224706913,40.2090834370302,0.9869254870602193,604
+exp1_tensors,exp1_tensors,all_features,All Features,STConv,1,tercile,High,1.741801583210637,1.0050861192596492,39.212831786530536,0.917214346790743,604
+exp2_tensors,exp2_tensors,all_features,All Features,STConv,1,tercile,High,1.7792805905133764,1.0074185137832243,38.592691988799004,0.9023854797705078,604
+exp1_tensors,exp1_tensors,all_features,All Features,STGCN,1,tercile,High,1.6686722119095594,0.9621325999595917,37.51869111705804,0.9072901372928233,604
+exp2_tensors,exp2_tensors,all_features,All Features,STGCN,1,tercile,High,1.6751373111154928,0.9706353480749231,37.89468677899746,0.8976849317292246,604
+exp3_tensors,core_city,core_city,Core + City,AGCRN,1,tercile,High,1.6570928277175532,0.944143629437572,36.51016849303074,0.9082918053025316,604
+exp3_tensors,core_city,core_city,Core + City,DCRNN,1,tercile,High,1.6034768447692336,0.9164424919315238,35.63060368210061,0.8667948172002315,604
+exp3_tensors,core_continent,core_continent,Core + Continent,AGCRN,1,tercile,High,1.6355990726724587,0.9333425046850333,36.116997642113915,0.8991238264937078,604
+exp3_tensors,core_continent,core_continent,Core + Continent,DCRNN,1,tercile,High,1.6027973728252525,0.9053923779660897,35.255245431366646,0.8717819697829347,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GConvLSTM,1,tercile,High,1.6449619715364028,0.9172351840798625,35.789164045369475,0.8711505301810869,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GraphWaveNet,1,tercile,High,1.5983244060355,0.9093618364411502,35.310001947995694,0.8692878399142272,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,AGCRN,1,tercile,High,1.6266378747025172,0.9281881783214994,36.03725959410771,0.8719506657696743,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,DCRNN,1,tercile,High,1.5954531851090774,0.9022338695315835,35.2317711848677,0.8791823871863227,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GConvLSTM,1,tercile,High,1.6423142819990253,0.9169243033089437,35.95654580025334,0.8726799381935249,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GraphWaveNet,1,tercile,High,1.5851643282605523,0.8979974303035365,34.955449759824035,0.8535087467090067,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,AGCRN,1,tercile,High,1.6241281381306132,0.9309653686204313,36.02734130105666,0.8966237614029906,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,DCRNN,1,tercile,High,1.5966344622019442,0.9058179258932839,35.270251428509795,0.8773236141103312,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GConvLSTM,1,tercile,High,1.6406958063103088,0.9167635157248601,35.87473349282396,0.8753515901574457,604
+exp3_tensors,core_country,core_country,Core + Country,DCRNN,1,tercile,High,1.5935623846533638,0.9001857842498906,35.12326123015799,0.8644331717912468,604
+exp3_tensors,core_country,core_country,Core + Country,GConvLSTM,1,tercile,High,1.689767830609405,0.9465067598467087,36.82767692252763,0.8928604881390554,604
+exp3_tensors,core_country,core_country,Core + Country,GraphWaveNet,1,tercile,High,1.5972799422793889,0.9150677977695184,35.35964451345457,0.871836679874035,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,AGCRN,1,tercile,High,1.6232658668820383,0.9287934236080262,36.13490978481307,0.8904716776936192,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,DCRNN,1,tercile,High,1.592014272070598,0.9027232895947483,35.18329082880452,0.869410508893012,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GraphWaveNet,1,tercile,High,1.6155043267757474,0.918457848093383,35.63729646417925,0.8815662200071253,604
+ablation_tensors,core_dom,core_dom,Core + Domain,AGCRN,1,tercile,High,1.6453723605010842,0.9353816728034653,36.093479193991854,0.8686367257846553,604
+ablation_tensors,core_dom,core_dom,Core + Domain,DCRNN,1,tercile,High,1.586596084939783,0.9120973922586818,35.353402131697784,0.8849798072927191,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GConvLSTM,1,tercile,High,1.6502861627070309,0.9553747157932255,37.01549427949831,0.9178441492497754,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GraphWaveNet,1,tercile,High,1.668209732144457,0.9682468851883013,37.44173523957578,0.9351718747437989,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,AGCRN,1,tercile,High,1.6171066002100885,0.937590537926172,36.605530338590775,0.8960643133843398,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,DCRNN,1,tercile,High,1.5978772744592684,0.8994004086767604,35.08963587431187,0.8835878814836825,604
+ablation_tensors,core_geo,core_geo,Core + Geo,AGCRN,1,tercile,High,1.6227190288257205,0.9231236462626676,35.95744579559583,0.888665628421513,604
+ablation_tensors,core_geo,core_geo,Core + Geo,DCRNN,1,tercile,High,1.5963412871445806,0.8998854593727587,35.1182165933706,0.8650040923650965,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GConvLSTM,1,tercile,High,1.636566025099911,0.9118321758399872,35.6535274162481,0.8621038688817977,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GraphWaveNet,1,tercile,High,1.5947045506210076,0.8992060600481121,35.0170187428558,0.8550809959932959,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,AGCRN,1,tercile,High,1.6143078769614836,0.9235878356576391,35.9472211622487,0.8792781466370787,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,DCRNN,1,tercile,High,1.588599721818819,0.9003771068789145,35.161622792810945,0.8741782288292965,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GConvLSTM,1,tercile,High,1.6402421652432833,0.9155318200559548,36.00870973547122,0.8736642539931418,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GraphWaveNet,1,tercile,High,1.5875641789682275,0.8935518693517938,34.892381244422175,0.8565224604809003,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,AGCRN,1,tercile,High,1.6323552357225128,0.9310505687279395,36.06975057068746,0.8847278892640295,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,DCRNN,1,tercile,High,1.5978613865534281,0.898289656512988,35.07479768190509,0.8600351369433681,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GConvLSTM,1,tercile,High,1.65271415755124,0.916680306828177,35.77914955962734,0.8686060898442235,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GraphWaveNet,1,tercile,High,1.6000543835987768,0.9078085801762289,35.20252311257201,0.87376071016107,604
+ablation_tensors,core_lags,core_lags,Core + Lags,AGCRN,1,tercile,High,1.6695719255256,0.945248994033438,36.49855256158334,0.8822338680550814,604
+ablation_tensors,core_lags,core_lags,Core + Lags,DCRNN,1,tercile,High,1.605868208818168,0.9053064504982193,35.49687225132133,0.883641960834564,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GConvLSTM,1,tercile,High,1.74382724122312,0.9534328673646701,36.500593038938575,0.858303938269813,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GraphWaveNet,1,tercile,High,1.6486320573670055,0.9101722135218219,35.39194017091279,0.8826583462714852,604
+ablation_tensors,core_only,core_only,Core (CPC only),DCRNN,1,tercile,High,1.5989821928128942,0.9090731028511685,35.47677227670577,0.892281629837044,604
+ablation_tensors,core_only,core_only,Core (CPC only),GraphWaveNet,1,tercile,High,1.5859385503361045,0.8999156634940952,35.0261995667781,0.8632294344805103,604
+ablation_tensors,core_search,core_search,Core + Search,AGCRN,1,tercile,High,1.6418881524777942,0.9288793538149073,36.03511315897153,0.8879556219988685,604
+ablation_tensors,core_search,core_search,Core + Search,GraphWaveNet,1,tercile,High,1.578815441185341,0.8906053639862117,34.751215318564654,0.8589863848317015,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,AGCRN,1,tercile,High,1.6295077062260368,0.9351225150386093,36.05123749902216,0.8891506516722851,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,DCRNN,1,tercile,High,1.5901142186212678,0.90689999725948,35.35325739546377,0.8935792194322663,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GConvLSTM,1,tercile,High,1.6562009514263598,0.9177405531523146,35.8769355271398,0.8754588775802856,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GraphWaveNet,1,tercile,High,1.5855649875163118,0.8997786722370616,34.99044031117471,0.8660593853562863,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,AGCRN,1,tercile,High,1.6688157309301432,0.9330843588250639,36.225140794548,0.8831811715575191,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,DCRNN,1,tercile,High,1.5937261426576428,0.9014791118939866,35.244114850527694,0.8830567118640882,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GConvLSTM,1,tercile,High,1.6450936357914596,0.9164504638908765,35.85572909437905,0.8778891929677088,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GraphWaveNet,1,tercile,High,1.6286978272356323,0.9213117385551527,36.0263455391381,0.8843204454411133,604
+exp1_tensors,exp1_tensors,all_features,All Features,A3TGCN,1,tercile,Low,1.2056638669892963,0.8995268747780227,32.129118434961065,0.903547744611638,604
+exp2_tensors,exp2_tensors,all_features,All Features,A3TGCN,1,tercile,Low,1.2216945111763184,0.9089543134084649,32.20920361219789,0.9412963254518443,604
+ablation_tensors,all_features,all_features,All Features,AGCRN,1,tercile,Low,0.8319054075207841,0.5810243956062613,20.721136519069976,0.6221735472809032,604
+exp1_tensors,exp1_tensors,all_features,All Features,AGCRN,1,tercile,Low,0.8141925495478237,0.565969029363864,20.05951367410568,0.6009408788649283,604
+exp2_tensors,exp2_tensors,all_features,All Features,AGCRN,1,tercile,Low,0.8100187068466733,0.5594593801304473,19.586238944844723,0.5936689902713612,604
+ablation_tensors,all_features,all_features,All Features,DCRNN,1,tercile,Low,0.7562224160790202,0.5202203587110624,17.903507501117577,0.5677350299530461,604
+exp1_tensors,exp1_tensors,all_features,All Features,DCRNN,1,tercile,Low,0.7827203882391417,0.5437731479777798,18.464208146594572,0.6015184802929857,604
+exp2_tensors,exp2_tensors,all_features,All Features,DCRNN,1,tercile,Low,0.7540062348710691,0.5173314203781585,17.808149953665282,0.5622248102731422,604
+ablation_tensors,all_features,all_features,All Features,GConvLSTM,1,tercile,Low,0.870294514404131,0.615385288774893,21.37881561578802,0.6671925348437527,604
+exp1_tensors,exp1_tensors,all_features,All Features,GConvLSTM,1,tercile,Low,0.7949799975766048,0.5524374868503932,19.31317195052168,0.5898185098737871,604
+exp2_tensors,exp2_tensors,all_features,All Features,GConvLSTM,1,tercile,Low,0.8150938562127401,0.5767475839626595,19.881745143843776,0.6230652627941995,604
+ablation_tensors,all_features,all_features,All Features,GraphWaveNet,1,tercile,Low,0.8013560460320165,0.5531675640758772,18.591753622305635,0.5994059157268006,604
+exp1_tensors,exp1_tensors,all_features,All Features,GraphWaveNet,1,tercile,Low,0.8055745344249984,0.5609939918423624,18.97726577783913,0.6116588958619809,604
+exp2_tensors,exp2_tensors,all_features,All Features,GraphWaveNet,1,tercile,Low,0.7678956206119718,0.5265769284951536,18.190464280568413,0.5723036307561067,604
+exp2_tensors,exp2_tensors,all_features,All Features,MTGNN,1,tercile,Low,0.8841663563023899,0.628370349730484,21.54583681963632,0.6829890503560907,604
+exp1_tensors,exp1_tensors,all_features,All Features,STConv,1,tercile,Low,0.9098250486863793,0.6522124521999346,22.494930263428824,0.7231608749930669,604
+exp2_tensors,exp2_tensors,all_features,All Features,STConv,1,tercile,Low,0.9155490673683434,0.6398610190267253,21.78049300830033,0.6764439798867682,604
+exp1_tensors,exp1_tensors,all_features,All Features,STGCN,1,tercile,Low,0.81069971227356,0.5734383351701936,19.83320419628714,0.6324257754397575,604
+exp2_tensors,exp2_tensors,all_features,All Features,STGCN,1,tercile,Low,0.815510657258881,0.5728956658068363,19.828129700333992,0.6112305567024641,604
+exp3_tensors,core_city,core_city,Core + City,AGCRN,1,tercile,Low,0.7897004448083348,0.5425745060385538,18.723725791639648,0.5889116250287827,604
+exp3_tensors,core_city,core_city,Core + City,DCRNN,1,tercile,Low,0.7637819085221486,0.5198925166901252,17.91604214260056,0.5708395490228275,604
+exp3_tensors,core_continent,core_continent,Core + Continent,AGCRN,1,tercile,Low,0.7762518151776004,0.5284551615667324,18.244145466955576,0.5830120923581168,604
+exp3_tensors,core_continent,core_continent,Core + Continent,DCRNN,1,tercile,Low,0.7476007124329731,0.5008778239320618,17.330846283549597,0.5470489424851044,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GConvLSTM,1,tercile,Low,0.7580709791621073,0.5155673767433137,18.00895649165429,0.5571229077402522,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GraphWaveNet,1,tercile,Low,0.7515674519598073,0.5026161511429837,17.171549127328294,0.5478756721293293,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,AGCRN,1,tercile,Low,0.774921824034212,0.5262640033379963,18.371681391518795,0.5627079672703923,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,DCRNN,1,tercile,Low,0.7497996924551402,0.5077959146901645,17.696547064685074,0.5471541726068945,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GConvLSTM,1,tercile,Low,0.7660375220391479,0.5222729891766669,18.31910318220995,0.5549568946874489,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GraphWaveNet,1,tercile,Low,0.7467897106206248,0.5001963558888024,17.36120209676059,0.5341551782778629,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,AGCRN,1,tercile,Low,0.771644511107568,0.5247405966459705,18.18917973489671,0.5719960952900887,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,DCRNN,1,tercile,Low,0.7512544475031127,0.5048487205578788,17.429595440476824,0.5453328773983889,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GConvLSTM,1,tercile,Low,0.7634797692773361,0.5198425951229291,18.153076698609226,0.5626339871959065,604
+exp3_tensors,core_country,core_country,Core + Country,DCRNN,1,tercile,Low,0.7498998567556486,0.5032792807018582,17.423795734552222,0.5427780563059692,604
+exp3_tensors,core_country,core_country,Core + Country,GConvLSTM,1,tercile,Low,0.8273558798209242,0.5607291239570176,19.387531425116105,0.5900338961089456,604
+exp3_tensors,core_country,core_country,Core + Country,GraphWaveNet,1,tercile,Low,0.7615896249072749,0.5151605448072046,17.656796078590673,0.5551478679004422,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,AGCRN,1,tercile,Low,0.781405285489981,0.5327485702004462,18.553346544691024,0.5778613017535235,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,DCRNN,1,tercile,Low,0.7532654407166768,0.5096006908683977,17.700550691778947,0.552854026314739,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GraphWaveNet,1,tercile,Low,0.7727415426677541,0.5217446627042048,17.95698731761114,0.5605382792169509,604
+ablation_tensors,core_dom,core_dom,Core + Domain,AGCRN,1,tercile,Low,0.778888102833433,0.5363019272724945,18.6169575540425,0.5811640690155799,604
+ablation_tensors,core_dom,core_dom,Core + Domain,DCRNN,1,tercile,Low,0.7796252833990948,0.5350279566571097,18.079975850192174,0.5901300649401848,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GConvLSTM,1,tercile,Low,0.8791231231482128,0.6173168871711838,20.86262189649008,0.6538032106758354,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GraphWaveNet,1,tercile,Low,0.8663111881882799,0.6210220729855388,20.70509615640426,0.7219146411769408,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,AGCRN,1,tercile,Low,0.7802550231867414,0.5359619443250331,18.633865423883446,0.5770939885903182,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,DCRNN,1,tercile,Low,0.7445104925041586,0.4998076103072749,17.26906895654507,0.5371504673107297,604
+ablation_tensors,core_geo,core_geo,Core + Geo,AGCRN,1,tercile,Low,0.7748018909640585,0.5242973161826032,18.218362854096757,0.5590960985999583,604
+ablation_tensors,core_geo,core_geo,Core + Geo,DCRNN,1,tercile,Low,0.7465333721522834,0.5006056200482459,17.24015529488627,0.5391515419396079,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GConvLSTM,1,tercile,Low,0.7598768589453584,0.5121510434583665,17.81238332817434,0.5476061515828344,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GraphWaveNet,1,tercile,Low,0.7451058287284044,0.4984714046214284,17.133815473507266,0.5426293768194812,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,AGCRN,1,tercile,Low,0.7681571357530478,0.5242229299880858,18.324068080000938,0.5643663750384182,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,DCRNN,1,tercile,Low,0.7504556802376665,0.5066678890201963,17.521076955793255,0.5393945090009716,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GConvLSTM,1,tercile,Low,0.7621101914260839,0.5199525380679719,18.322854981133577,0.5595868359313145,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GraphWaveNet,1,tercile,Low,0.7419419617461138,0.4957963640735644,17.193766796912495,0.5349259438251457,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,AGCRN,1,tercile,Low,0.7731748764421231,0.5302167379297961,18.372377842124965,0.5692518782339329,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,DCRNN,1,tercile,Low,0.7451054410237159,0.4996055451800648,17.199419013484775,0.5336284493974388,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GConvLSTM,1,tercile,Low,0.7657712315038702,0.5204945024360574,18.0978841768128,0.5516466793869393,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GraphWaveNet,1,tercile,Low,0.7535105389446847,0.5062175219957812,17.34027637044882,0.5459881884269862,604
+ablation_tensors,core_lags,core_lags,Core + Lags,AGCRN,1,tercile,Low,0.793935046813354,0.5401280469711108,18.635537156915806,0.5796416292110544,604
+ablation_tensors,core_lags,core_lags,Core + Lags,DCRNN,1,tercile,Low,0.744141769641947,0.5000589796148456,17.34201997680972,0.5334289802354945,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GConvLSTM,1,tercile,Low,0.7804335465262195,0.5275247336892627,18.165853975069123,0.555166181323465,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GraphWaveNet,1,tercile,Low,0.7548445667176917,0.507741644503982,17.287866120986912,0.5516128835959544,604
+ablation_tensors,core_only,core_only,Core (CPC only),DCRNN,1,tercile,Low,0.7435219310050358,0.4989452614306709,17.278458175016294,0.5337359854836602,604
+ablation_tensors,core_only,core_only,Core (CPC only),GraphWaveNet,1,tercile,Low,0.7484279569047457,0.5005373524363441,17.168406373251628,0.5391527323941536,604
+ablation_tensors,core_search,core_search,Core + Search,AGCRN,1,tercile,Low,0.7667345706838894,0.520152135840186,18.10221126047008,0.5589592042128594,604
+ablation_tensors,core_search,core_search,Core + Search,GraphWaveNet,1,tercile,Low,0.7429093378213059,0.49671002015833915,17.372414816029853,0.5358832885268292,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,AGCRN,1,tercile,Low,0.7731805953695335,0.5301548715834448,18.31519357170813,0.5647969305433451,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,DCRNN,1,tercile,Low,0.7451075264805017,0.5009845944284923,17.31357916615337,0.5367346342505049,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GConvLSTM,1,tercile,Low,0.7537234475132782,0.51038361154085,17.861738194358896,0.5460780021106125,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GraphWaveNet,1,tercile,Low,0.7507615688081424,0.5032544282717247,17.203654519203074,0.5457582907071583,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,AGCRN,1,tercile,Low,0.7690034985355524,0.523387835049499,18.27799522522361,0.5693714546853623,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,DCRNN,1,tercile,Low,0.7501266425238781,0.5099976188352223,17.69018764609242,0.5470074786910851,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GConvLSTM,1,tercile,Low,0.7608588794254354,0.5160798443224017,18.068957063288025,0.5461026698950979,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GraphWaveNet,1,tercile,Low,0.7571037969997206,0.5063572515531738,17.63162669834435,0.5424334882644228,604
+exp1_tensors,exp1_tensors,all_features,All Features,A3TGCN,1,tercile,Medium,1.4286082851516912,0.9938779851381845,36.64521113878955,1.0398650100094955,603
+exp2_tensors,exp2_tensors,all_features,All Features,A3TGCN,1,tercile,Medium,1.4514657105017301,1.0110488903928787,37.1578522048609,1.0510911276237147,603
+ablation_tensors,all_features,all_features,All Features,AGCRN,1,tercile,Medium,1.108257545441015,0.7357688878153607,27.682869589993004,0.7981289834161226,603
+exp1_tensors,exp1_tensors,all_features,All Features,AGCRN,1,tercile,Medium,1.0980708015712448,0.7382260357062965,27.694561567266344,0.7932955832871404,603
+exp2_tensors,exp2_tensors,all_features,All Features,AGCRN,1,tercile,Medium,1.1004436723810638,0.7308850164627042,27.248770179684772,0.7710667018762665,603
+ablation_tensors,all_features,all_features,All Features,DCRNN,1,tercile,Medium,1.056754604203189,0.6986597785079232,25.701949807895357,0.7190201241357868,603
+exp1_tensors,exp1_tensors,all_features,All Features,DCRNN,1,tercile,Medium,1.0763059921228695,0.7218516280882697,26.147415171980253,0.7787833898423094,603
+exp2_tensors,exp2_tensors,all_features,All Features,DCRNN,1,tercile,Medium,1.0535018000719156,0.6952090613271243,25.596813533166017,0.7262918684432189,603
+ablation_tensors,all_features,all_features,All Features,GConvLSTM,1,tercile,Medium,1.1642110140538426,0.7847686847383214,28.60926799821682,0.8639773614099785,603
+exp1_tensors,exp1_tensors,all_features,All Features,GConvLSTM,1,tercile,Medium,1.0934399070629728,0.7262196591274835,26.70073748644431,0.7821338479625867,603
+exp2_tensors,exp2_tensors,all_features,All Features,GConvLSTM,1,tercile,Medium,1.106806769558359,0.7379403505150627,26.85355691520797,0.7841943735783723,603
+ablation_tensors,all_features,all_features,All Features,GraphWaveNet,1,tercile,Medium,1.1069364603862304,0.7413886482319808,26.791268185476447,0.7980110341674126,603
+exp1_tensors,exp1_tensors,all_features,All Features,GraphWaveNet,1,tercile,Medium,1.1044161757095405,0.7425329802979027,26.80036409817172,0.8011749263664751,603
+exp2_tensors,exp2_tensors,all_features,All Features,GraphWaveNet,1,tercile,Medium,1.0739964325862643,0.7059951276676479,26.05526070934535,0.7442928011298013,603
+exp2_tensors,exp2_tensors,all_features,All Features,MTGNN,1,tercile,Medium,1.1674830662947357,0.8122967796111543,29.526836224328022,0.88807912353121,603
+exp1_tensors,exp1_tensors,all_features,All Features,STConv,1,tercile,Medium,1.1676092461707672,0.7906933314515546,29.277024527264896,0.8527439180146025,603
+exp2_tensors,exp2_tensors,all_features,All Features,STConv,1,tercile,Medium,1.1949676739311244,0.7962702954665694,28.808931270674037,0.8253515064157685,603
+exp1_tensors,exp1_tensors,all_features,All Features,STGCN,1,tercile,Medium,1.124641159851237,0.7548345134944536,27.507488497677585,0.7836560729946539,603
+exp2_tensors,exp2_tensors,all_features,All Features,STGCN,1,tercile,Medium,1.12589153232198,0.7504491143448941,27.65206130546257,0.7675941333460502,603
+exp3_tensors,core_city,core_city,Core + City,AGCRN,1,tercile,Medium,1.101581008596013,0.7391897328602826,27.093938710325432,0.7872498935190816,603
+exp3_tensors,core_city,core_city,Core + City,DCRNN,1,tercile,Medium,1.074714319942348,0.7067589323401623,25.94277369053262,0.7604601799135482,603
+exp3_tensors,core_continent,core_continent,Core + Continent,AGCRN,1,tercile,Medium,1.0863986976299835,0.7202248382866558,26.48761395388916,0.7535211236941269,603
+exp3_tensors,core_continent,core_continent,Core + Continent,DCRNN,1,tercile,Medium,1.059065000476339,0.6868779730612362,25.375478126047117,0.7103074801558902,603
+exp3_tensors,core_continent,core_continent,Core + Continent,GConvLSTM,1,tercile,Medium,1.0738171761847901,0.6989429322429166,25.886482131832807,0.7189731763642762,603
+exp3_tensors,core_continent,core_continent,Core + Continent,GraphWaveNet,1,tercile,Medium,1.059327786048638,0.687700008873158,25.357612135313733,0.7192356693084015,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,AGCRN,1,tercile,Medium,1.0793880292902707,0.715250718386323,26.394716175349924,0.7584399655959645,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,DCRNN,1,tercile,Medium,1.0542473751827166,0.6860527723133211,25.414368033507944,0.7129421888900064,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GConvLSTM,1,tercile,Medium,1.0718122056420634,0.7016179032334147,26.054916723785816,0.7261243516503807,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GraphWaveNet,1,tercile,Medium,1.054723137710994,0.6819447579715204,25.14533902666608,0.7116604828146014,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,AGCRN,1,tercile,Medium,1.0838027275677702,0.7184381006368566,26.378315406931335,0.7605489093801971,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,DCRNN,1,tercile,Medium,1.0580515707482092,0.6884445583410146,25.405886474702477,0.7136975140505117,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GConvLSTM,1,tercile,Medium,1.0758491712417484,0.6995366042458301,25.891345238000195,0.7301163737358145,603
+exp3_tensors,core_country,core_country,Core + Country,DCRNN,1,tercile,Medium,1.0556132042651034,0.6850033677008547,25.368637467939507,0.7179850645680909,603
+exp3_tensors,core_country,core_country,Core + Country,GConvLSTM,1,tercile,Medium,1.1069738782659153,0.7238799321607259,26.728624567168225,0.7608921967588382,603
+exp3_tensors,core_country,core_country,Core + Country,GraphWaveNet,1,tercile,Medium,1.0638529772197645,0.6987450130177076,25.705733210357067,0.7436413183141246,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,AGCRN,1,tercile,Medium,1.0803183016870925,0.7155073142548994,26.448614284545275,0.758124717320043,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,DCRNN,1,tercile,Medium,1.0561059152244,0.6890482289394003,25.465906733154398,0.7266944770336645,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GraphWaveNet,1,tercile,Medium,1.0717061565309496,0.6994819678102829,25.79980964115417,0.7560508592159989,603
+ablation_tensors,core_dom,core_dom,Core + Domain,AGCRN,1,tercile,Medium,1.0957907001252494,0.7315804357148894,26.66486806056996,0.7773208932172188,603
+ablation_tensors,core_dom,core_dom,Core + Domain,DCRNN,1,tercile,Medium,1.071494163647956,0.7091908983817335,25.841330795383723,0.7430222476079009,603
+ablation_tensors,core_dom,core_dom,Core + Domain,GConvLSTM,1,tercile,Medium,1.1346646670662222,0.7640118597623486,27.736703411762626,0.7987875089711434,603
+ablation_tensors,core_dom,core_dom,Core + Domain,GraphWaveNet,1,tercile,Medium,1.14043144171405,0.7773549566750765,28.072015178691917,0.8364184189560866,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,AGCRN,1,tercile,Medium,1.0791203593134369,0.723695255146255,26.726112558605507,0.7728114273212296,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,DCRNN,1,tercile,Medium,1.0555128150409723,0.6836487720844061,25.281275688876466,0.6991571546446979,603
+ablation_tensors,core_geo,core_geo,Core + Geo,AGCRN,1,tercile,Medium,1.0713366715579895,0.7060139559531926,26.122816112821685,0.7494406980726842,603
+ablation_tensors,core_geo,core_geo,Core + Geo,DCRNN,1,tercile,Medium,1.0538467639181632,0.6849361407973259,25.292999652239377,0.7104316568420042,603
+ablation_tensors,core_geo,core_geo,Core + Geo,GConvLSTM,1,tercile,Medium,1.0670608275817643,0.6890081186851761,25.54357836432034,0.7065670634104642,603
+ablation_tensors,core_geo,core_geo,Core + Geo,GraphWaveNet,1,tercile,Medium,1.0516699622693513,0.6806125313787206,25.171277756435316,0.7131050542991271,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,AGCRN,1,tercile,Medium,1.0744606816437468,0.7124114657829183,26.22463569864843,0.7465976275220688,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,DCRNN,1,tercile,Medium,1.0525381228599995,0.6859917521842342,25.350171117421024,0.7078516012493408,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GConvLSTM,1,tercile,Medium,1.0694560947326934,0.6949646079927301,25.853976475418772,0.7271371615106024,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GraphWaveNet,1,tercile,Medium,1.0497050529278036,0.6777519772829372,25.084038597287222,0.7082619692933809,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,AGCRN,1,tercile,Medium,1.0788472622089238,0.7176521848037458,26.39441354545049,0.7723926219890377,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,DCRNN,1,tercile,Medium,1.051404436878865,0.6819823360394687,25.21397379307595,0.7045270263273302,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GConvLSTM,1,tercile,Medium,1.073809379284009,0.697695950120062,25.800591673872013,0.7211416442312812,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GraphWaveNet,1,tercile,Medium,1.0585671584413814,0.6879345899937539,25.425421679757893,0.7256611966248124,603
+ablation_tensors,core_lags,core_lags,Core + Lags,AGCRN,1,tercile,Medium,1.1065178751887377,0.7316286669792772,26.758814852047312,0.7755759941453778,603
+ablation_tensors,core_lags,core_lags,Core + Lags,DCRNN,1,tercile,Medium,1.0632336674790919,0.6902820307159441,25.545629446152546,0.7080232049727601,603
+ablation_tensors,core_lags,core_lags,Core + Lags,GConvLSTM,1,tercile,Medium,1.1191209170976781,0.716371290443513,26.07290155266055,0.7222966197524108,603
+ablation_tensors,core_lags,core_lags,Core + Lags,GraphWaveNet,1,tercile,Medium,1.0693542264116218,0.6935472385758584,25.546330641586305,0.7238784789662139,603
+ablation_tensors,core_only,core_only,Core (CPC only),DCRNN,1,tercile,Medium,1.0618904221519345,0.6905188415213782,25.523426231009704,0.711277260504834,603
+ablation_tensors,core_only,core_only,Core (CPC only),GraphWaveNet,1,tercile,Medium,1.0547291742853,0.683809338650026,25.291033439506478,0.7150987074112128,603
+ablation_tensors,core_search,core_search,Core + Search,AGCRN,1,tercile,Medium,1.0776402407892438,0.7119544318042874,26.279466618212467,0.75390566343971,603
+ablation_tensors,core_search,core_search,Core + Search,GraphWaveNet,1,tercile,Medium,1.0481944294135395,0.6773034541618218,25.03879533019278,0.702884890823757,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,AGCRN,1,tercile,Medium,1.0780137771654101,0.7202867117548711,26.476379422830142,0.762888349000489,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,DCRNN,1,tercile,Medium,1.0559317831727268,0.6877893943098142,25.425928573510877,0.7085135372148118,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GConvLSTM,1,tercile,Medium,1.0753027551108356,0.6991417661030942,25.90741486318042,0.7237834572329781,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GraphWaveNet,1,tercile,Medium,1.0530950856604353,0.6842634458072878,25.28281363258276,0.7129608261270245,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,AGCRN,1,tercile,Medium,1.0746425557927892,0.7085218883208224,26.305015381416645,0.7534631602327055,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,DCRNN,1,tercile,Medium,1.0551413594365866,0.6878384559560133,25.420632948686894,0.7060150964177754,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GConvLSTM,1,tercile,Medium,1.0662711820264115,0.6925901969077962,25.711510627651325,0.7065837919923088,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GraphWaveNet,1,tercile,Medium,1.0746124090089197,0.6989264755949429,25.969032483471555,0.7170996911390575,603
+exp1_tensors,exp1_tensors,all_features,All Features,A3TGCN,6,tercile,High,2.5166528448139256,1.489946528205425,55.16549591785105,1.0977329370672573,604
+exp2_tensors,exp2_tensors,all_features,All Features,A3TGCN,6,tercile,High,2.4630222667111954,1.4607953199455763,54.204144342563055,1.0882530972508646,604
+ablation_tensors,all_features,all_features,All Features,AGCRN,6,tercile,High,1.9963055366843785,1.1350839868620222,43.1508523308733,0.9395710284648731,604
+exp1_tensors,exp1_tensors,all_features,All Features,AGCRN,6,tercile,High,1.9729917889418909,1.116230476616598,42.390377192886305,0.9299965641064336,604
+exp2_tensors,exp2_tensors,all_features,All Features,AGCRN,6,tercile,High,1.976557000243086,1.1182740501370378,42.37721133550963,0.9359637573250439,604
+ablation_tensors,all_features,all_features,All Features,DCRNN,6,tercile,High,1.7736732409305644,1.0347734559030066,40.23259853835162,0.9178437881802782,604
+exp2_tensors,exp2_tensors,all_features,All Features,DCRNN,6,tercile,High,1.7317729702117646,1.0244423088804053,39.993836998392844,0.921238619882603,604
+ablation_tensors,all_features,all_features,All Features,GConvLSTM,6,tercile,High,1.9312804212182757,1.1365051656619738,42.831976953462274,0.9827167958705578,604
+exp1_tensors,exp1_tensors,all_features,All Features,GConvLSTM,6,tercile,High,1.989853518578014,1.1079674743670131,41.917222886583424,0.9254986140774581,604
+exp2_tensors,exp2_tensors,all_features,All Features,GConvLSTM,6,tercile,High,1.949847416931023,1.111417977284121,42.26458454987059,0.9344640403241525,604
+ablation_tensors,all_features,all_features,All Features,GraphWaveNet,6,tercile,High,1.917816377191443,1.0744625459398145,40.87578024552047,0.907332494143289,604
+exp1_tensors,exp1_tensors,all_features,All Features,GraphWaveNet,6,tercile,High,1.941671842084133,1.0894937375546192,41.03583864955696,0.8964898026171324,604
+exp2_tensors,exp2_tensors,all_features,All Features,GraphWaveNet,6,tercile,High,1.9485149285436227,1.0848470479934567,40.85509535335072,0.9044574003645067,604
+exp1_tensors,exp1_tensors,all_features,All Features,MTGNN,6,tercile,High,1.9739014184824717,1.1555314851269813,44.70273752181632,1.0150395956924194,604
+exp2_tensors,exp2_tensors,all_features,All Features,MTGNN,6,tercile,High,1.9127235596266057,1.1987340488765224,44.69928418256264,1.0536809108739793,604
+exp1_tensors,exp1_tensors,all_features,All Features,STConv,6,tercile,High,2.245868706233465,1.2656536724780485,46.520311495137065,0.9552273275080251,604
+exp2_tensors,exp2_tensors,all_features,All Features,STConv,6,tercile,High,1.9387917668683041,1.1289810627476757,43.075858213781096,0.9827987248334451,604
+exp1_tensors,exp1_tensors,all_features,All Features,STGCN,6,tercile,High,2.018806178142857,1.146058426897165,42.83504519030159,0.9333192391975853,604
+exp2_tensors,exp2_tensors,all_features,All Features,STGCN,6,tercile,High,2.082567029740416,1.1762696904537324,43.99947304692705,0.9476073714669356,604
+exp3_tensors,core_city,core_city,Core + City,AGCRN,6,tercile,High,1.8566259787815562,1.093795015705599,41.344228992296,0.9657888002160392,604
+exp3_tensors,core_city,core_city,Core + City,DCRNN,6,tercile,High,1.8589477192289494,1.0597405812496188,40.63405366445302,0.9188538461930806,604
+exp3_tensors,core_city,core_city,Core + City,GConvLSTM,6,tercile,High,1.9247863884227059,1.1284843684140238,42.783468722235455,0.9798240915941889,604
+exp3_tensors,core_city,core_city,Core + City,GraphWaveNet,6,tercile,High,1.8667385779570422,1.06247538651779,40.686600152297636,0.9082095330869029,604
+exp3_tensors,core_continent,core_continent,Core + Continent,AGCRN,6,tercile,High,1.8086318861493131,1.0551487488207427,40.59272494763652,0.9394039648392212,604
+exp3_tensors,core_continent,core_continent,Core + Continent,DCRNN,6,tercile,High,1.8622982042048697,1.0658538821624333,40.531050428735035,0.9484449031814668,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GConvLSTM,6,tercile,High,1.8876802493624678,1.0660313834457065,40.47065387875008,0.9070347495393116,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GraphWaveNet,6,tercile,High,1.9220914648018084,1.0943260078210628,41.22763820463421,0.9727775270930172,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,AGCRN,6,tercile,High,1.8135316347343309,1.0560175563327983,40.55322367886163,0.9169812936275592,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,DCRNN,6,tercile,High,1.8742276826787772,1.0820682556870045,41.31823100374712,0.9490750881368878,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GConvLSTM,6,tercile,High,1.89769253381942,1.0857414112376904,40.97173129230268,0.921747573509758,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GraphWaveNet,6,tercile,High,1.8662275114784401,1.0664016381218526,40.40264017373601,0.9676115093919657,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,AGCRN,6,tercile,High,1.830304396855542,1.053788711112486,40.5514611427036,0.955814058280126,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,DCRNN,6,tercile,High,1.8372830969569034,1.053694883941286,40.02403895373583,0.941750876514986,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GConvLSTM,6,tercile,High,1.9079146758966374,1.0822800363940634,40.91095529666166,0.9135861268973573,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GraphWaveNet,6,tercile,High,1.785822908887444,1.0436602293095418,40.00932621702198,0.9616850359925768,604
+exp3_tensors,core_country,core_country,Core + Country,AGCRN,6,tercile,High,1.8389019674841118,1.0718968221236436,40.836902644816256,0.9533216117192088,604
+exp3_tensors,core_country,core_country,Core + Country,DCRNN,6,tercile,High,1.8543222471136522,1.0527595070819549,40.080910266732616,0.9068883778416579,604
+exp3_tensors,core_country,core_country,Core + Country,GConvLSTM,6,tercile,High,1.9836142024259946,1.129768100767296,42.362724148317696,0.9376852571485937,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,AGCRN,6,tercile,High,1.846997773052348,1.0740254194479366,40.95652249067766,0.9225353460591323,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,DCRNN,6,tercile,High,1.8471941344656106,1.076703369949603,40.9129404307111,0.9329298303796952,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GConvLSTM,6,tercile,High,1.9194982252116837,1.1032452537005768,41.63173099593217,0.9284434287879647,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GraphWaveNet,6,tercile,High,1.834375421157552,1.0446627068337433,39.98385978621619,0.9374129271293195,604
+ablation_tensors,core_dom,core_dom,Core + Domain,AGCRN,6,tercile,High,1.816575390017604,1.059832794752118,40.54266734492411,0.9466876427180912,604
+ablation_tensors,core_dom,core_dom,Core + Domain,DCRNN,6,tercile,High,1.893214758032516,1.0784062890894024,40.68650442470723,0.9062186190270796,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GConvLSTM,6,tercile,High,2.000074418601658,1.1153251712155003,42.26412750049685,0.9529076870302582,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GraphWaveNet,6,tercile,High,1.8529032640522292,1.0738788273524884,40.66703473490868,0.9683278772545312,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,AGCRN,6,tercile,High,1.8072749186189474,1.0548717102262941,40.650998269804006,0.9079068624868547,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,DCRNN,6,tercile,High,1.8854192934356195,1.081481335672061,40.76566981315637,0.9110426213535843,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GConvLSTM,6,tercile,High,1.9571576823571881,1.1109988117186649,41.535201783929566,0.9698417725730493,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GraphWaveNet,6,tercile,High,1.865171612483414,1.0638654802412975,40.641907183500706,0.9155561579768379,604
+ablation_tensors,core_geo,core_geo,Core + Geo,AGCRN,6,tercile,High,1.8031003786146989,1.0437228902421893,40.483673872449714,0.9014345739559206,604
+ablation_tensors,core_geo,core_geo,Core + Geo,DCRNN,6,tercile,High,1.862400353524964,1.0679607266360356,40.614464233762625,0.9255444067598892,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GConvLSTM,6,tercile,High,1.9078085374304175,1.0735823555883799,40.74271435233691,0.9062979644505964,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GraphWaveNet,6,tercile,High,1.8492727336363257,1.048507750478132,40.00752660869771,0.915307338192267,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,AGCRN,6,tercile,High,1.811839251688332,1.0573134787797267,40.68660452972043,0.9285555900433511,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,DCRNN,6,tercile,High,1.858443926224305,1.0671564479400741,40.79193314814692,0.9451662052120757,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GConvLSTM,6,tercile,High,1.9041596936991851,1.0782430731239332,40.86964026321098,0.9385960866241927,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GraphWaveNet,6,tercile,High,1.8137641446329777,1.037699128527634,40.056633250851306,0.903081179386364,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,AGCRN,6,tercile,High,1.8649711019486268,1.0604370236770595,40.692498611335694,0.9143996895065158,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,DCRNN,6,tercile,High,1.7978725801862263,1.0365437805791016,39.6908459707306,0.9416750764765525,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GConvLSTM,6,tercile,High,1.8820671556082484,1.0653407008212201,40.27982251902266,0.9209954871877468,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GraphWaveNet,6,tercile,High,1.9095708168503656,1.0775174084730796,40.72122314611624,0.9684060305133229,604
+ablation_tensors,core_lags,core_lags,Core + Lags,AGCRN,6,tercile,High,1.8601232670181673,1.0823741998546208,41.572485797986545,0.9387127499986166,604
+ablation_tensors,core_lags,core_lags,Core + Lags,DCRNN,6,tercile,High,1.9856229596092414,1.1157365208353087,41.99932599567733,0.9329911389061173,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GConvLSTM,6,tercile,High,2.067682762013694,1.1367688614874176,42.42681503525492,0.9237587151301008,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GraphWaveNet,6,tercile,High,1.9684849689186399,1.0995037311542746,41.44499357564425,0.8940949315081481,604
+ablation_tensors,core_only,core_only,Core (CPC only),DCRNN,6,tercile,High,1.9054714822631473,1.091557784594943,41.88829247280415,0.9119360850313527,604
+ablation_tensors,core_only,core_only,Core (CPC only),GConvLSTM,6,tercile,High,2.0069277876371387,1.1124464811518777,41.877424036268614,0.9185084949378961,604
+ablation_tensors,core_only,core_only,Core (CPC only),GraphWaveNet,6,tercile,High,1.9396690274988277,1.0891457160354867,41.20729321055293,0.9247810615114438,604
+ablation_tensors,core_search,core_search,Core + Search,AGCRN,6,tercile,High,1.9000506612872063,1.081178813602066,41.417720186674764,0.9475803911128542,604
+ablation_tensors,core_search,core_search,Core + Search,DCRNN,6,tercile,High,1.8675607167868455,1.0807631180836665,41.45655642104268,0.9512933604825495,604
+ablation_tensors,core_search,core_search,Core + Search,GConvLSTM,6,tercile,High,1.9493014904621346,1.0969633112346848,41.417279050517344,0.9438640856628069,604
+ablation_tensors,core_search,core_search,Core + Search,GraphWaveNet,6,tercile,High,1.9054266226847179,1.0846796686206726,41.27336065414356,0.9298907947767743,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,DCRNN,6,tercile,High,1.8498693561828812,1.0689779869519187,40.84225189848815,0.9409827257921015,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GConvLSTM,6,tercile,High,1.9372064388130608,1.092335722050086,41.48277482224572,0.9747858076399111,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,AGCRN,6,tercile,High,1.8504654564072416,1.0702055961524635,41.17429669474013,0.9621413189422501,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,DCRNN,6,tercile,High,1.9027592717931237,1.0808354817577903,40.78829889307603,0.8999445374057313,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GConvLSTM,6,tercile,High,1.9176594764291737,1.0831979368592142,41.29496169273936,0.935335313289539,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GraphWaveNet,6,tercile,High,1.9760820052435608,1.1047973827875612,41.301205215614836,0.9192420034146858,604
+exp1_tensors,exp1_tensors,all_features,All Features,A3TGCN,6,tercile,Low,1.4619984979095133,1.096595075461687,38.89183403843722,1.012606597211394,604
+exp2_tensors,exp2_tensors,all_features,All Features,A3TGCN,6,tercile,Low,1.3863687479402425,1.03052035931369,36.403629016891195,0.9349576654243094,604
+ablation_tensors,all_features,all_features,All Features,AGCRN,6,tercile,Low,0.913929543154336,0.6550815280845858,23.1994894637846,0.6399342268574704,604
+exp1_tensors,exp1_tensors,all_features,All Features,AGCRN,6,tercile,Low,0.912760856268844,0.6485003212678108,22.801776804061905,0.6328886984634914,604
+exp2_tensors,exp2_tensors,all_features,All Features,AGCRN,6,tercile,Low,0.9146278435437223,0.6498857657243857,22.85830632933589,0.6239234874969171,604
+ablation_tensors,all_features,all_features,All Features,DCRNN,6,tercile,Low,0.9401420327469572,0.673836892508563,23.41421917964851,0.6447218823894512,604
+exp2_tensors,exp2_tensors,all_features,All Features,DCRNN,6,tercile,Low,0.9658410431648461,0.6884498447487343,23.556657866858522,0.6735835668992709,604
+ablation_tensors,all_features,all_features,All Features,GConvLSTM,6,tercile,Low,1.1042456823546383,0.8189021783927477,26.98325319526126,0.8003914640243097,604
+exp1_tensors,exp1_tensors,all_features,All Features,GConvLSTM,6,tercile,Low,0.9187921884075072,0.6528533526121038,23.44412906181014,0.6584119457584203,604
+exp2_tensors,exp2_tensors,all_features,All Features,GConvLSTM,6,tercile,Low,0.9659007974916647,0.697320152264604,24.556845704113794,0.705689281873337,604
+ablation_tensors,all_features,all_features,All Features,GraphWaveNet,6,tercile,Low,0.8955322199973512,0.624164104799044,22.1543930607298,0.5977343996979481,604
+exp1_tensors,exp1_tensors,all_features,All Features,GraphWaveNet,6,tercile,Low,0.882637331953744,0.6191687555351159,22.018776997227732,0.6076613923194005,604
+exp2_tensors,exp2_tensors,all_features,All Features,GraphWaveNet,6,tercile,Low,0.8975410276874412,0.6222962206969113,22.013225662602327,0.588180855391103,604
+exp1_tensors,exp1_tensors,all_features,All Features,MTGNN,6,tercile,Low,0.9426698517471934,0.6708504457174347,23.9971379301805,0.650903356957929,604
+exp2_tensors,exp2_tensors,all_features,All Features,MTGNN,6,tercile,Low,1.059686154410022,0.7562159660647584,25.626725344011387,0.7109376624281752,604
+exp1_tensors,exp1_tensors,all_features,All Features,STConv,6,tercile,Low,1.1977379089857223,0.8639858317036183,30.140676962655643,0.7951009780605351,604
+exp2_tensors,exp2_tensors,all_features,All Features,STConv,6,tercile,Low,1.0009355751682925,0.720404108202414,25.08424599919691,0.7034242245001301,604
+exp1_tensors,exp1_tensors,all_features,All Features,STGCN,6,tercile,Low,0.9637856824344048,0.6976161307073379,24.50715130757185,0.6896371962411312,604
+exp2_tensors,exp2_tensors,all_features,All Features,STGCN,6,tercile,Low,0.9902503342709995,0.7085242686182052,25.287350581784334,0.6740002127371143,604
+exp3_tensors,core_city,core_city,Core + City,AGCRN,6,tercile,Low,0.938937791638462,0.6749073520059108,23.176493391550437,0.6716488947542292,604
+exp3_tensors,core_city,core_city,Core + City,DCRNN,6,tercile,Low,0.8995779526255894,0.6286308157938358,22.067668563486922,0.6337616886165881,604
+exp3_tensors,core_city,core_city,Core + City,GConvLSTM,6,tercile,Low,0.9996062502425905,0.728391459022445,25.058692146086475,0.7364234715009661,604
+exp3_tensors,core_city,core_city,Core + City,GraphWaveNet,6,tercile,Low,0.8975645821879242,0.6269473822770024,22.127661694681123,0.6341573393899205,604
+exp3_tensors,core_continent,core_continent,Core + Continent,AGCRN,6,tercile,Low,0.8981663077717915,0.636885535237408,22.165948497047392,0.6464733605871866,604
+exp3_tensors,core_continent,core_continent,Core + Continent,DCRNN,6,tercile,Low,0.8705115894318848,0.6136377064903976,21.9516414097187,0.6173206070247879,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GConvLSTM,6,tercile,Low,0.8541260608230151,0.6126017555606975,21.85346607986964,0.6219535993025886,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GraphWaveNet,6,tercile,Low,0.8641584683160384,0.5998383652020763,21.601390995829934,0.592877763487003,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,AGCRN,6,tercile,Low,0.8910573617020411,0.6326725098881936,22.200255889385485,0.6232048508881223,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,DCRNN,6,tercile,Low,0.870626473603779,0.6219550860702042,22.4633672475234,0.6216247084189317,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GConvLSTM,6,tercile,Low,0.8928862737201276,0.6440712901383018,22.788989343205447,0.6504198483058552,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GraphWaveNet,6,tercile,Low,0.8611451566257281,0.6014083492448181,21.6707375871571,0.6148089979883056,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,AGCRN,6,tercile,Low,0.8898027222237562,0.6265495854201917,21.953555170463808,0.6208093276019924,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,DCRNN,6,tercile,Low,0.869131957247737,0.6123540247397329,21.73359659413161,0.6150853210209887,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GConvLSTM,6,tercile,Low,0.883015519517397,0.6361086375838942,22.50988591524069,0.642369731259032,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GraphWaveNet,6,tercile,Low,0.9034678960502014,0.6391800055795468,22.202259520188605,0.635428467314051,604
+exp3_tensors,core_country,core_country,Core + Country,AGCRN,6,tercile,Low,0.9025461545456119,0.6405556962012117,22.277852187241727,0.6536592289808669,604
+exp3_tensors,core_country,core_country,Core + Country,DCRNN,6,tercile,Low,0.8823346688771478,0.6224344535245347,22.149850869875706,0.6120237429314188,604
+exp3_tensors,core_country,core_country,Core + Country,GConvLSTM,6,tercile,Low,1.0079180253981819,0.7174753610827491,25.13450881890699,0.6836341088729871,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,AGCRN,6,tercile,Low,0.9037538775402643,0.6452886963442328,22.527469081727354,0.6613538714035702,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,DCRNN,6,tercile,Low,0.9339136642831259,0.6885833925963182,24.1607251215744,0.7012640546922585,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GConvLSTM,6,tercile,Low,0.9793301355864149,0.7087345980951654,24.5910381011115,0.7049838243576975,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GraphWaveNet,6,tercile,Low,0.8950340072268674,0.6268966810099817,22.28350458320855,0.609316321034888,604
+ablation_tensors,core_dom,core_dom,Core + Domain,AGCRN,6,tercile,Low,0.933668584813563,0.6717566776084204,23.199077724885473,0.6807067605250487,604
+ablation_tensors,core_dom,core_dom,Core + Domain,DCRNN,6,tercile,Low,0.8675230007639315,0.6058720196016903,21.636204499491186,0.6131138900549236,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GConvLSTM,6,tercile,Low,0.9163747994614393,0.6621862716938013,23.442069483808254,0.6998418790982113,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GraphWaveNet,6,tercile,Low,0.9653544163086208,0.6801410091444925,23.235407123646688,0.7052593795998918,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,AGCRN,6,tercile,Low,0.8934959264692718,0.6336926057385457,22.594408421487586,0.6295060100447649,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,DCRNN,6,tercile,Low,0.8916270328735099,0.6255330529662494,22.200486478196254,0.6173291018683098,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GConvLSTM,6,tercile,Low,0.9668736920355077,0.7078311071253731,24.37713789412298,0.7273774273086923,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GraphWaveNet,6,tercile,Low,0.9050574775373104,0.6449502047606985,22.677734738388565,0.6510815235138825,604
+ablation_tensors,core_geo,core_geo,Core + Geo,AGCRN,6,tercile,Low,0.8857002771451036,0.6297301633565273,22.26856364999091,0.6335378787259675,604
+ablation_tensors,core_geo,core_geo,Core + Geo,DCRNN,6,tercile,Low,0.8859623572322006,0.6228072339085534,22.248285347079502,0.6269922924960883,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GConvLSTM,6,tercile,Low,0.8908422286893245,0.6428855384054504,22.755991930249394,0.6624390842859036,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GraphWaveNet,6,tercile,Low,0.8661378125871997,0.6014849252277203,21.623520252958212,0.6102959975634893,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,AGCRN,6,tercile,Low,0.9004762836019211,0.6431458803831419,22.63928910117601,0.640894799102553,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,DCRNN,6,tercile,Low,0.8730147987884865,0.6228078443664479,22.35715806490194,0.6085678296798702,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GConvLSTM,6,tercile,Low,0.89757255110041,0.6439095927751866,22.650270826728367,0.6694663165637728,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GraphWaveNet,6,tercile,Low,0.8609601133490419,0.598109181173655,21.36868655790037,0.5988544408797172,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,AGCRN,6,tercile,Low,0.868626943819954,0.6166424511385291,21.88144714573279,0.6115478778946388,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,DCRNN,6,tercile,Low,0.8770483722830845,0.6145212498630351,21.875737062508243,0.6192786124358264,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GConvLSTM,6,tercile,Low,0.8835919159969041,0.6250799507246978,22.070193474456833,0.6345039401404644,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GraphWaveNet,6,tercile,Low,0.8653696326258137,0.6049582632343592,21.844314235020885,0.622571387113134,604
+ablation_tensors,core_lags,core_lags,Core + Lags,AGCRN,6,tercile,Low,0.922244113225864,0.6525589769754216,22.760958840222653,0.648202072483002,604
+ablation_tensors,core_lags,core_lags,Core + Lags,DCRNN,6,tercile,Low,0.9515225470353292,0.6635086778234753,23.217229215400327,0.6352041325427673,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GConvLSTM,6,tercile,Low,1.0098499635964178,0.7136491626384758,25.229000849577197,0.691407628312666,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GraphWaveNet,6,tercile,Low,0.876145980070509,0.6016868309031952,21.33620434569773,0.5957934235089302,604
+ablation_tensors,core_only,core_only,Core (CPC only),DCRNN,6,tercile,Low,0.8705141543375611,0.6184793765452994,22.507835466814978,0.6095166873708062,604
+ablation_tensors,core_only,core_only,Core (CPC only),GConvLSTM,6,tercile,Low,0.9008950991259368,0.648156247509931,23.21810857066845,0.6494791107516202,604
+ablation_tensors,core_only,core_only,Core (CPC only),GraphWaveNet,6,tercile,Low,0.861694343691991,0.5922256033957871,21.49595023564888,0.5918417365190288,604
+ablation_tensors,core_search,core_search,Core + Search,AGCRN,6,tercile,Low,0.8922412510451482,0.6338112437220519,22.437813900633678,0.6276234346719842,604
+ablation_tensors,core_search,core_search,Core + Search,DCRNN,6,tercile,Low,0.8794144940668377,0.6350806753369291,22.8941083146692,0.6310129772827282,604
+ablation_tensors,core_search,core_search,Core + Search,GConvLSTM,6,tercile,Low,0.8780377238371062,0.6363085963388496,22.90131460757501,0.6360109718645985,604
+ablation_tensors,core_search,core_search,Core + Search,GraphWaveNet,6,tercile,Low,0.866807847310728,0.6035295075874704,22.00076736255084,0.6003174511364211,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,DCRNN,6,tercile,Low,0.8728731767198996,0.6165754451128195,22.226102028104,0.6114183361757346,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GConvLSTM,6,tercile,Low,0.914607589274507,0.662528588092175,23.36473780087333,0.6663143310633541,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,AGCRN,6,tercile,Low,0.8810805829950673,0.6220699668537831,22.198934178411246,0.626923640415758,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,DCRNN,6,tercile,Low,0.9059516934604821,0.6344599162176268,22.61537637653971,0.6128217599824961,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GConvLSTM,6,tercile,Low,0.9008256486398006,0.6457093113081798,22.86268103178943,0.6388845856353245,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GraphWaveNet,6,tercile,Low,0.8979576513455011,0.6183461516171961,22.101013104340122,0.6063794337667825,604
+exp1_tensors,exp1_tensors,all_features,All Features,A3TGCN,6,tercile,Medium,1.781091916341362,1.2097006789093516,44.43761605871282,1.001561175599546,603
+exp2_tensors,exp2_tensors,all_features,All Features,A3TGCN,6,tercile,Medium,1.727012222638898,1.1749115327931896,43.185956295753584,0.993850471191363,603
+ablation_tensors,all_features,all_features,All Features,AGCRN,6,tercile,Medium,1.2060718005028181,0.824535113745997,30.78857836508061,0.7903922414970114,603
+exp1_tensors,exp1_tensors,all_features,All Features,AGCRN,6,tercile,Medium,1.205492504291006,0.8124628499755903,30.01252441210051,0.7911681572295455,603
+exp2_tensors,exp2_tensors,all_features,All Features,AGCRN,6,tercile,Medium,1.2131320246222974,0.8203732535662269,30.274182015761873,0.7856208908170653,603
+ablation_tensors,all_features,all_features,All Features,DCRNN,6,tercile,Medium,1.1643666136066408,0.7887868921088711,29.171777089015126,0.7940094340750714,603
+exp2_tensors,exp2_tensors,all_features,All Features,DCRNN,6,tercile,Medium,1.174595439225962,0.8020836148217686,29.479963743082386,0.8019491479280658,603
+ablation_tensors,all_features,all_features,All Features,GConvLSTM,6,tercile,Medium,1.304596930087247,0.9307979851776848,33.169617638136515,0.9642591525622692,603
+exp1_tensors,exp1_tensors,all_features,All Features,GConvLSTM,6,tercile,Medium,1.2278246415468652,0.8101243198265541,29.87430834629911,0.7816661659207259,603
+exp2_tensors,exp2_tensors,all_features,All Features,GConvLSTM,6,tercile,Medium,1.2222442534935511,0.8355821037539508,30.850467390872666,0.853190687914148,603
+ablation_tensors,all_features,all_features,All Features,GraphWaveNet,6,tercile,Medium,1.191027677316195,0.7811789179994282,28.92300770817228,0.7757763841386386,603
+exp1_tensors,exp1_tensors,all_features,All Features,GraphWaveNet,6,tercile,Medium,1.2000715682062346,0.7943542818766242,29.293751972548094,0.7610641100424822,603
+exp2_tensors,exp2_tensors,all_features,All Features,GraphWaveNet,6,tercile,Medium,1.213253027785773,0.7901122680780445,28.985749901537055,0.7458117002483392,603
+exp1_tensors,exp1_tensors,all_features,All Features,MTGNN,6,tercile,Medium,1.26565497445089,0.8738454807665934,32.47196981336864,0.8587081031232572,603
+exp2_tensors,exp2_tensors,all_features,All Features,MTGNN,6,tercile,Medium,1.36312485007036,0.966396416174666,34.05010447751239,0.9391458080713643,603
+exp1_tensors,exp1_tensors,all_features,All Features,STConv,6,tercile,Medium,1.5074192404349023,0.9747857339719673,34.908981188349195,0.8377857560221307,603
+exp2_tensors,exp2_tensors,all_features,All Features,STConv,6,tercile,Medium,1.2606422417353833,0.8576879322918525,31.691461463463256,0.7938491819632734,603
+exp1_tensors,exp1_tensors,all_features,All Features,STGCN,6,tercile,Medium,1.3712596159331165,0.8923951204323022,32.06004996862929,0.8524032034827863,603
+exp2_tensors,exp2_tensors,all_features,All Features,STGCN,6,tercile,Medium,1.3414506948695006,0.8816673705499851,32.157290272231684,0.8063203244975473,603
+exp3_tensors,core_city,core_city,Core + City,AGCRN,6,tercile,Medium,1.2330816005470593,0.8605320405042328,31.372939766135637,0.886054367871047,603
+exp3_tensors,core_city,core_city,Core + City,DCRNN,6,tercile,Medium,1.1733653567871631,0.7977346463420042,29.800325977228614,0.7906686223119586,603
+exp3_tensors,core_city,core_city,Core + City,GConvLSTM,6,tercile,Medium,1.2737604024900087,0.8940198808148714,32.69095100572355,0.8976603383346016,603
+exp3_tensors,core_city,core_city,Core + City,GraphWaveNet,6,tercile,Medium,1.1922858915407957,0.8018856794207705,30.141098261307697,0.8141271499821594,603
+exp3_tensors,core_continent,core_continent,Core + Continent,AGCRN,6,tercile,Medium,1.1794588785657674,0.8135565028845873,30.191738436530724,0.8212532114012515,603
+exp3_tensors,core_continent,core_continent,Core + Continent,DCRNN,6,tercile,Medium,1.214671541894981,0.8156298930016804,30.130474657140304,0.7884081866113808,603
+exp3_tensors,core_continent,core_continent,Core + Continent,GConvLSTM,6,tercile,Medium,1.2028080085029778,0.806324600088668,29.73871267291392,0.7917034009118129,603
+exp3_tensors,core_continent,core_continent,Core + Continent,GraphWaveNet,6,tercile,Medium,1.2520662990075393,0.8267955293505985,30.294773409929586,0.8118134184425213,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,AGCRN,6,tercile,Medium,1.1695447804870507,0.8005258514936993,29.76024871180783,0.8009246057492,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,DCRNN,6,tercile,Medium,1.2218460859616973,0.8226168576004379,30.520858605909872,0.7871805477559957,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GConvLSTM,6,tercile,Medium,1.2175704873516233,0.8230478510892556,30.26085060536105,0.823238548264092,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GraphWaveNet,6,tercile,Medium,1.2085837508225088,0.8022913196599173,29.647075667780886,0.7984166816757988,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,AGCRN,6,tercile,Medium,1.1805755599875765,0.8058013772376484,29.77603450558336,0.7767660375182367,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,DCRNN,6,tercile,Medium,1.199986055297711,0.8026099402840825,29.50454209025607,0.7711319569925318,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GConvLSTM,6,tercile,Medium,1.2370503911972275,0.8296097452103834,30.406678502047292,0.8094198669212455,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GraphWaveNet,6,tercile,Medium,1.1902444313931682,0.805716916030587,29.766917214111803,0.814088009251872,603
+exp3_tensors,core_country,core_country,Core + Country,AGCRN,6,tercile,Medium,1.1929795465560364,0.8293793988150824,30.56505094657708,0.8230605116581818,603
+exp3_tensors,core_country,core_country,Core + Country,DCRNN,6,tercile,Medium,1.2116475403316938,0.8144795602150907,30.03585371241815,0.7986923176921031,603
+exp3_tensors,core_country,core_country,Core + Country,GConvLSTM,6,tercile,Medium,1.334230796431268,0.9005180731652154,32.338718070480525,0.8882782053953233,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,AGCRN,6,tercile,Medium,1.1851600709223624,0.8138140367146244,30.105206272084956,0.8025435544344399,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,DCRNN,6,tercile,Medium,1.2098865423288607,0.8382877223020979,30.767183870332452,0.8398203443960284,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GConvLSTM,6,tercile,Medium,1.2752733511877148,0.8844731771462048,32.02992429905585,0.8988465730808559,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GraphWaveNet,6,tercile,Medium,1.1893781231284957,0.792768762846468,29.457645600253397,0.8063005204604784,603
+ablation_tensors,core_dom,core_dom,Core + Domain,AGCRN,6,tercile,Medium,1.2406110483309416,0.8489131951722785,30.812147647996223,0.8415479775906157,603
+ablation_tensors,core_dom,core_dom,Core + Domain,DCRNN,6,tercile,Medium,1.2257075458286106,0.8132111097611814,29.789948951295784,0.7783259856119897,603
+ablation_tensors,core_dom,core_dom,Core + Domain,GConvLSTM,6,tercile,Medium,1.2770935783678898,0.8519723594406923,30.9506678625458,0.828549705656174,603
+ablation_tensors,core_dom,core_dom,Core + Domain,GraphWaveNet,6,tercile,Medium,1.2694111131976158,0.8486889580097524,30.474925963871875,0.8651540218241711,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,AGCRN,6,tercile,Medium,1.1914362815595545,0.8243439914702658,30.789667642858433,0.8279210542182227,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,DCRNN,6,tercile,Medium,1.24007745754906,0.8248867080903741,30.018092277649277,0.7765611177631512,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GConvLSTM,6,tercile,Medium,1.2429761435774034,0.8463072550754479,30.774229633228334,0.8154876818220845,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GraphWaveNet,6,tercile,Medium,1.1889838684968326,0.812637517691263,30.050949342675747,0.8376441785250133,603
+ablation_tensors,core_geo,core_geo,Core + Geo,AGCRN,6,tercile,Medium,1.1747393891202835,0.7937667842318051,29.740902114706085,0.756023399460441,603
+ablation_tensors,core_geo,core_geo,Core + Geo,DCRNN,6,tercile,Medium,1.221545451346513,0.8099071093638905,29.737071414708282,0.7682620073239315,603
+ablation_tensors,core_geo,core_geo,Core + Geo,GConvLSTM,6,tercile,Medium,1.2267163285695024,0.8247112320717711,30.30588897539795,0.8018465481648617,603
+ablation_tensors,core_geo,core_geo,Core + Geo,GraphWaveNet,6,tercile,Medium,1.1946662236102104,0.7896717647222702,29.39239652103027,0.7635544708006736,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,AGCRN,6,tercile,Medium,1.1865141066613545,0.8157729009079443,30.273061318350074,0.808523877337882,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,DCRNN,6,tercile,Medium,1.209131643979871,0.8115188520711114,30.178948644506313,0.7907073782765263,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GConvLSTM,6,tercile,Medium,1.2338404818731572,0.833338507794888,30.460002766668264,0.8286483676266477,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GraphWaveNet,6,tercile,Medium,1.1662275388969015,0.7726225616637254,29.009725543126702,0.7595609128818819,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,AGCRN,6,tercile,Medium,1.1788042936951855,0.7993893507633456,29.751589930802968,0.7854992503382469,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,DCRNN,6,tercile,Medium,1.191393922917443,0.7982519558383198,29.495551053290974,0.7912179617955853,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GConvLSTM,6,tercile,Medium,1.2196945750281505,0.8181648031160818,29.999788020399087,0.8142162423074206,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GraphWaveNet,6,tercile,Medium,1.2387017559564213,0.818532493226811,30.176965872326818,0.8033908291432115,603
+ablation_tensors,core_lags,core_lags,Core + Lags,AGCRN,6,tercile,Medium,1.2055849484574472,0.8201940845255781,30.256764176633304,0.7897923933790747,603
+ablation_tensors,core_lags,core_lags,Core + Lags,DCRNN,6,tercile,Medium,1.3224858014756473,0.8470826345327983,30.44083520663485,0.768649460911277,603
+ablation_tensors,core_lags,core_lags,Core + Lags,GConvLSTM,6,tercile,Medium,1.3315465493086351,0.857090468065097,30.992926153900807,0.7834664288888679,603
+ablation_tensors,core_lags,core_lags,Core + Lags,GraphWaveNet,6,tercile,Medium,1.257558033320151,0.8162702243602167,29.652217864422596,0.7468461087188396,603
+ablation_tensors,core_only,core_only,Core (CPC only),DCRNN,6,tercile,Medium,1.22655577174514,0.8309379052466627,31.30789839249808,0.7727865797295782,603
+ablation_tensors,core_only,core_only,Core (CPC only),GConvLSTM,6,tercile,Medium,1.2741281390311432,0.8531902723104551,31.225856424997033,0.8463541076106481,603
+ablation_tensors,core_only,core_only,Core (CPC only),GraphWaveNet,6,tercile,Medium,1.2398946250221936,0.8084429632273458,29.76203674609566,0.7388129422751335,603
+ablation_tensors,core_search,core_search,Core + Search,AGCRN,6,tercile,Medium,1.236773697185459,0.8271655722184998,30.53100214011731,0.789691420991985,603
+ablation_tensors,core_search,core_search,Core + Search,DCRNN,6,tercile,Medium,1.2284538303393495,0.834548194774007,30.94115326568174,0.806169350732984,603
+ablation_tensors,core_search,core_search,Core + Search,GConvLSTM,6,tercile,Medium,1.2397603668800334,0.8433127193925193,31.031488579269535,0.8286815161015978,603
+ablation_tensors,core_search,core_search,Core + Search,GraphWaveNet,6,tercile,Medium,1.2276202429158614,0.8069755107641257,29.860060462158433,0.7556624156317113,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,DCRNN,6,tercile,Medium,1.2293740136014757,0.8242981072467519,30.495030358532922,0.7736627836613094,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GConvLSTM,6,tercile,Medium,1.2579682643822538,0.8469936410386839,31.055937235343446,0.846512401636501,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,AGCRN,6,tercile,Medium,1.1770635314659377,0.8050150327480421,30.18789587947286,0.7980111498550372,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,DCRNN,6,tercile,Medium,1.2245920389382239,0.8144451498146278,29.995670967831643,0.7742347077626329,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GConvLSTM,6,tercile,Medium,1.2261824602591023,0.8264211506063613,30.495655045786645,0.8174932524399978,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GraphWaveNet,6,tercile,Medium,1.2710442644259081,0.8243673905474734,30.125466098351627,0.7511608548791371,603
+exp1_tensors,exp1_tensors,all_features,All Features,A3TGCN,12,tercile,High,2.4529254054648004,1.5970922129010436,61.00682794032317,1.0932607228703008,604
+exp2_tensors,exp2_tensors,all_features,All Features,A3TGCN,12,tercile,High,2.4193515355493362,1.5793651720490385,60.395148669919976,1.0997165889018323,604
+ablation_tensors,all_features,all_features,All Features,AGCRN,12,tercile,High,2.1029581643764503,1.3550011384647274,53.56911696171343,0.9015872325707707,604
+exp1_tensors,exp1_tensors,all_features,All Features,AGCRN,12,tercile,High,2.0763340028605133,1.3265836708383816,52.369625872871616,0.8259408698963232,604
+exp2_tensors,exp2_tensors,all_features,All Features,AGCRN,12,tercile,High,2.089760404617111,1.3281386820389358,52.6093796337464,0.8771508500545901,604
+ablation_tensors,all_features,all_features,All Features,DCRNN,12,tercile,High,2.1194625650520993,1.3594922113519279,54.39852442960248,0.8858284600761166,604
+exp1_tensors,exp1_tensors,all_features,All Features,DCRNN,12,tercile,High,2.171086999415219,1.3749737981448882,54.57280368687027,0.8763110372780474,604
+exp2_tensors,exp2_tensors,all_features,All Features,DCRNN,12,tercile,High,2.1045084723893543,1.3390959253672123,52.89397828293582,0.8518823158739184,604
+ablation_tensors,all_features,all_features,All Features,GConvLSTM,12,tercile,High,2.450410609778794,1.5477201599330443,58.94764016242796,0.9974915582079149,604
+exp1_tensors,exp1_tensors,all_features,All Features,GConvLSTM,12,tercile,High,2.439177724037242,1.5577372728462653,59.48547551479838,1.0677447923397136,604
+exp2_tensors,exp2_tensors,all_features,All Features,GConvLSTM,12,tercile,High,2.108974006589517,1.3651240167579204,53.131097380400846,0.8854007839653819,604
+ablation_tensors,all_features,all_features,All Features,GraphWaveNet,12,tercile,High,2.1689047057844877,1.3554105456807497,52.60010669032174,0.8407395841843891,604
+exp1_tensors,exp1_tensors,all_features,All Features,GraphWaveNet,12,tercile,High,2.223984896395664,1.3982398544088634,54.461075839772235,0.8490758280744904,604
+exp2_tensors,exp2_tensors,all_features,All Features,GraphWaveNet,12,tercile,High,2.297082946374078,1.4360874371012753,54.9656804531753,0.9255500770066332,604
+exp1_tensors,exp1_tensors,all_features,All Features,MTGNN,12,tercile,High,2.479422272343981,1.5505477434526187,61.40754701223041,0.9666368634787803,604
+exp2_tensors,exp2_tensors,all_features,All Features,MTGNN,12,tercile,High,2.910261518709748,1.8549409439814428,61.31476131083888,1.1413526511229086,604
+exp1_tensors,exp1_tensors,all_features,All Features,STConv,12,tercile,High,2.0221029678493503,1.3306069146178123,53.04979875701827,0.9047629861890669,604
+exp2_tensors,exp2_tensors,all_features,All Features,STConv,12,tercile,High,2.0191822457084045,1.3345526074632976,53.85765832390472,0.8834528346259547,604
+exp1_tensors,exp1_tensors,all_features,All Features,STGCN,12,tercile,High,2.159834281329997,1.3482510274998698,52.75089686948347,0.8437099223592972,604
+exp2_tensors,exp2_tensors,all_features,All Features,STGCN,12,tercile,High,2.5711068550691287,1.6601602735022207,63.291174956735915,1.0931832952871918,604
+exp3_tensors,core_city,core_city,Core + City,AGCRN,12,tercile,High,2.0097100254826215,1.3239226336643912,51.73150563716866,0.835003400114856,604
+exp3_tensors,core_city,core_city,Core + City,DCRNN,12,tercile,High,2.0766663404852346,1.3045941742720535,51.1096035699786,0.789851754210929,604
+exp3_tensors,core_city,core_city,Core + City,GConvLSTM,12,tercile,High,2.072721572040517,1.3310326121576754,52.676303308837866,0.8678962885779784,604
+exp3_tensors,core_city,core_city,Core + City,GraphWaveNet,12,tercile,High,2.026756451714108,1.314264972516066,51.04872723959524,0.8037116074382056,604
+exp3_tensors,core_continent,core_continent,Core + Continent,AGCRN,12,tercile,High,1.983850393966787,1.2994719325915884,50.962189866528306,0.8281166796936154,604
+exp3_tensors,core_continent,core_continent,Core + Continent,DCRNN,12,tercile,High,2.0284213685283867,1.2827617060460175,50.1110709586701,0.778704507822293,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GConvLSTM,12,tercile,High,2.0189118735828586,1.251590802039596,49.3919858003095,0.7902686357120579,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GraphWaveNet,12,tercile,High,1.95478300744546,1.2776305552794156,49.68129555232632,0.7827336104738718,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,AGCRN,12,tercile,High,2.047071940594585,1.289702100876612,50.61965424156101,0.8086900426270661,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,DCRNN,12,tercile,High,2.016899244776433,1.2852688479102192,49.93581352805601,0.8124191602997579,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GConvLSTM,12,tercile,High,2.0262453956179107,1.2734573238088231,49.853319366579925,0.8043419257554146,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GraphWaveNet,12,tercile,High,1.9469559529547287,1.283202567208531,49.698459458792776,0.8001197285147187,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,AGCRN,12,tercile,High,2.0710774893116795,1.3353074990876113,51.69685250492147,0.8281749253135975,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,DCRNN,12,tercile,High,2.048078816752789,1.2857594495654852,50.123229492241784,0.7772098542018862,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GConvLSTM,12,tercile,High,2.0407376500330856,1.2731151358857034,50.155372305293675,0.7976401549237029,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GraphWaveNet,12,tercile,High,2.100504385097045,1.3134820290224671,50.65661475188515,0.8174943483212991,604
+exp3_tensors,core_country,core_country,Core + Country,AGCRN,12,tercile,High,2.0516805551567936,1.331573400551563,51.71413379515912,0.8154728781573902,604
+exp3_tensors,core_country,core_country,Core + Country,DCRNN,12,tercile,High,2.0343773499910274,1.2692724353917897,49.95060116218763,0.769662943155834,604
+exp3_tensors,core_country,core_country,Core + Country,GConvLSTM,12,tercile,High,2.0436009603001972,1.2958341366564068,50.5936564755247,0.8043373155975557,604
+exp3_tensors,core_country,core_country,Core + Country,GraphWaveNet,12,tercile,High,1.978304469334992,1.298080054745887,49.97978734284544,0.80574575641817,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,AGCRN,12,tercile,High,1.997183311746548,1.302793569981635,51.30825447994748,0.7935284500454018,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,DCRNN,12,tercile,High,2.0291254251703155,1.303818147473271,50.26158104871668,0.7819001053654085,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GConvLSTM,12,tercile,High,2.027364386215971,1.2971185274795298,50.72055156960622,0.8345942126534828,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GraphWaveNet,12,tercile,High,2.0392700461854454,1.2731512695182794,49.75561601853377,0.8124970354707286,604
+ablation_tensors,core_dom,core_dom,Core + Domain,AGCRN,12,tercile,High,2.042381194159673,1.3181258128809108,50.90055469680912,0.8012689201423967,604
+ablation_tensors,core_dom,core_dom,Core + Domain,DCRNN,12,tercile,High,2.042566643770276,1.3036041970616858,50.62065936305034,0.8026368747067809,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GConvLSTM,12,tercile,High,2.0558723514958444,1.3180428157992807,51.0244443672517,0.802985347672098,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GraphWaveNet,12,tercile,High,2.1184167520975885,1.3187670988557052,51.04852027636135,0.7776470210528867,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,AGCRN,12,tercile,High,2.09347553396596,1.3729167472329058,52.85987921076606,0.873451985965859,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,DCRNN,12,tercile,High,2.0955111449730515,1.348976227326612,51.583100516691815,0.8301618365595702,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GConvLSTM,12,tercile,High,2.494714782520041,1.5798465233344665,60.10007793714196,1.0253907120985442,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GraphWaveNet,12,tercile,High,2.102718753689086,1.3180755912199733,50.827972477493574,0.7860348692355242,604
+ablation_tensors,core_geo,core_geo,Core + Geo,AGCRN,12,tercile,High,1.9957479821192312,1.3036347439365021,51.28751506636298,0.7968934419489503,604
+ablation_tensors,core_geo,core_geo,Core + Geo,DCRNN,12,tercile,High,2.102729306605862,1.3074705086568077,51.67222493671309,0.8075991502627221,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GConvLSTM,12,tercile,High,2.024652409937202,1.2504294556872921,49.35287232727404,0.784970039492304,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GraphWaveNet,12,tercile,High,2.108071684932267,1.3110609047693773,50.95737612834647,0.7852157081123406,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,AGCRN,12,tercile,High,1.9837110044778847,1.3019982024228998,51.20337259679464,0.7721529708667494,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,DCRNN,12,tercile,High,2.0719535686060553,1.287350467940466,50.34605458864105,0.8082660047884502,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GConvLSTM,12,tercile,High,2.098316211845003,1.3032942584892846,50.65110087372386,0.8004526607913072,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GraphWaveNet,12,tercile,High,2.1530562084789855,1.328815881668823,51.116760021600385,0.8014379945550167,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,AGCRN,12,tercile,High,2.1021728875478884,1.4010348556094474,53.38302979018903,0.8780844829149335,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,DCRNN,12,tercile,High,2.070731224320384,1.2996607208926212,51.133438060820794,0.8290129377395412,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GConvLSTM,12,tercile,High,2.043033205406579,1.2684767393467389,49.59916673036953,0.7533468946995279,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GraphWaveNet,12,tercile,High,2.149338826259106,1.3328657017161007,51.24924266440938,0.8033936616575913,604
+ablation_tensors,core_lags,core_lags,Core + Lags,AGCRN,12,tercile,High,2.1603748242991028,1.3595705782978753,52.78261619801611,0.8457448554156036,604
+ablation_tensors,core_lags,core_lags,Core + Lags,DCRNN,12,tercile,High,2.0850574146284004,1.3547217858166347,54.508013989290774,0.8176611099304882,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GConvLSTM,12,tercile,High,2.236591865796297,1.3624657773186326,52.666528660574386,0.8158718527752014,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GraphWaveNet,12,tercile,High,2.154386173761198,1.3590626549994962,52.37051585292812,0.8570333875143904,604
+ablation_tensors,core_only,core_only,Core (CPC only),AGCRN,12,tercile,High,2.0762632772715577,1.2991427297520894,51.149775795650164,0.7939659223796183,604
+ablation_tensors,core_only,core_only,Core (CPC only),DCRNN,12,tercile,High,2.0494666976944473,1.3088469809779593,51.096411736385974,0.8197097740652484,604
+ablation_tensors,core_only,core_only,Core (CPC only),GConvLSTM,12,tercile,High,2.1106116504142625,1.3029918919456478,50.964985157080434,0.8086748769484804,604
+ablation_tensors,core_only,core_only,Core (CPC only),GraphWaveNet,12,tercile,High,2.1426956035250093,1.3375857018373272,51.79436396131841,0.7926825820638806,604
+ablation_tensors,core_search,core_search,Core + Search,AGCRN,12,tercile,High,2.0261945621458755,1.3263130455546368,51.9569796047527,0.8366123154543974,604
+ablation_tensors,core_search,core_search,Core + Search,DCRNN,12,tercile,High,2.076568595314755,1.3191981920433806,51.16327499837913,0.8099826105402897,604
+ablation_tensors,core_search,core_search,Core + Search,GConvLSTM,12,tercile,High,2.154859747420668,1.3233519028725005,51.274089340962405,0.7872382890989382,604
+ablation_tensors,core_search,core_search,Core + Search,GraphWaveNet,12,tercile,High,2.1746991717031854,1.3559501182136202,52.26909463111837,0.8028079717593213,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,AGCRN,12,tercile,High,2.018171988284134,1.30320601136683,51.27718683351592,0.8116663091152762,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,DCRNN,12,tercile,High,2.05059964946872,1.3005176263491884,51.02608615347282,0.8242407326503061,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GConvLSTM,12,tercile,High,2.143027691229914,1.3255455520087225,52.00803559597702,0.8427767654162788,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GraphWaveNet,12,tercile,High,2.1440112376521046,1.343351297698416,51.980169842874055,0.7672908744589205,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,AGCRN,12,tercile,High,2.079339560370086,1.3250607086223718,51.0476408571696,0.8367301549234153,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,DCRNN,12,tercile,High,2.0484171221326406,1.307337950197977,50.67456794789984,0.7925908659352916,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GConvLSTM,12,tercile,High,2.0178930025711095,1.2729128252291497,50.10770764970411,0.8196197343915107,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GraphWaveNet,12,tercile,High,2.157104911048522,1.3322439127042673,51.45658143245403,0.7946310795136668,604
+exp1_tensors,exp1_tensors,all_features,All Features,A3TGCN,12,tercile,Low,1.527523972581289,1.1226176539295887,38.44138803607175,0.8311113355545852,604
+exp2_tensors,exp2_tensors,all_features,All Features,A3TGCN,12,tercile,Low,1.4783268306569555,1.0891843061033888,37.32904618547695,0.8044354739344433,604
+ablation_tensors,all_features,all_features,All Features,AGCRN,12,tercile,Low,1.1515857575328923,0.816209803487318,27.93072651964429,0.5333539022949689,604
+exp1_tensors,exp1_tensors,all_features,All Features,AGCRN,12,tercile,Low,1.1309351022224574,0.8172605200638827,27.789249212639035,0.5651425574880997,604
+exp2_tensors,exp2_tensors,all_features,All Features,AGCRN,12,tercile,Low,1.122805916192925,0.8142949116100929,28.21699137610711,0.5660682312708784,604
+ablation_tensors,all_features,all_features,All Features,DCRNN,12,tercile,Low,1.1648653159251388,0.8392245842088674,29.922584930519413,0.5788525297522411,604
+exp1_tensors,exp1_tensors,all_features,All Features,DCRNN,12,tercile,Low,1.2187265752504683,0.8703945011017784,30.62440297118773,0.587527989882202,604
+exp2_tensors,exp2_tensors,all_features,All Features,DCRNN,12,tercile,Low,1.1585461932897092,0.8267038487366017,28.683762580464993,0.557186865870079,604
+ablation_tensors,all_features,all_features,All Features,GConvLSTM,12,tercile,Low,1.4317791942503328,1.0386531711623816,35.53109964152977,0.75026187960752,604
+exp1_tensors,exp1_tensors,all_features,All Features,GConvLSTM,12,tercile,Low,1.4167098975765635,1.0278635931191336,35.215941739211786,0.7363705365436062,604
+exp2_tensors,exp2_tensors,all_features,All Features,GConvLSTM,12,tercile,Low,1.3843058848775012,1.0067932234118961,31.5691632222171,0.7310059588869134,604
+ablation_tensors,all_features,all_features,All Features,GraphWaveNet,12,tercile,Low,1.1329264427411998,0.7913128124628875,26.929678349021348,0.5209143278325478,604
+exp1_tensors,exp1_tensors,all_features,All Features,GraphWaveNet,12,tercile,Low,1.25717040383282,0.8848988371888665,30.146660743504427,0.5962605034985455,604
+exp2_tensors,exp2_tensors,all_features,All Features,GraphWaveNet,12,tercile,Low,1.2562581916574282,0.8900374126641858,30.113728946892564,0.5778759517811234,604
+exp1_tensors,exp1_tensors,all_features,All Features,MTGNN,12,tercile,Low,1.5549577741706821,1.1642192822737065,42.32075266038542,0.8826979801905375,604
+exp2_tensors,exp2_tensors,all_features,All Features,MTGNN,12,tercile,Low,1.477108127472381,1.078982225553465,33.840943888041814,0.8078376216194318,604
+exp1_tensors,exp1_tensors,all_features,All Features,STConv,12,tercile,Low,1.270435161368682,0.9144886755611472,30.937782964571,0.5816557580136809,604
+exp2_tensors,exp2_tensors,all_features,All Features,STConv,12,tercile,Low,1.2484222515286347,0.9325226518552857,31.682324381045262,0.6989763185435098,604
+exp1_tensors,exp1_tensors,all_features,All Features,STGCN,12,tercile,Low,1.186868706946302,0.835412487850217,28.371803830169373,0.5551388416456458,604
+exp2_tensors,exp2_tensors,all_features,All Features,STGCN,12,tercile,Low,1.682312745990078,1.2711808905486617,44.0225366212026,0.9568283194127762,604
+exp3_tensors,core_city,core_city,Core + City,AGCRN,12,tercile,Low,1.1578192801921643,0.8510587513678781,28.11363006316932,0.6472315206041139,604
+exp3_tensors,core_city,core_city,Core + City,DCRNN,12,tercile,Low,1.1462130457574646,0.8303371215029023,27.709753923154796,0.5840280037036484,604
+exp3_tensors,core_city,core_city,Core + City,GConvLSTM,12,tercile,Low,1.233880189081688,0.8908972097742538,29.476760606228424,0.6348276675312553,604
+exp3_tensors,core_city,core_city,Core + City,GraphWaveNet,12,tercile,Low,1.2362211074722245,0.9101862981788938,29.493709134947267,0.6451539789403486,604
+exp3_tensors,core_continent,core_continent,Core + Continent,AGCRN,12,tercile,Low,1.1303657210351286,0.8160557654053151,27.012305726915827,0.5943427055269692,604
+exp3_tensors,core_continent,core_continent,Core + Continent,DCRNN,12,tercile,Low,1.1297062017403305,0.8055976110762975,27.14034871036129,0.5545688803095151,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GConvLSTM,12,tercile,Low,1.1762615718953533,0.8727362069056989,29.400678431272027,0.6407623336832987,604
+exp3_tensors,core_continent,core_continent,Core + Continent,GraphWaveNet,12,tercile,Low,1.1984751770897064,0.8668801984891247,28.04176722827738,0.6281259676462884,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,AGCRN,12,tercile,Low,1.1363784822373733,0.8199829927456491,27.528546343026573,0.5920238869859773,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,DCRNN,12,tercile,Low,1.1360038923009685,0.8180391903848808,27.462920606404456,0.5883750979595497,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GConvLSTM,12,tercile,Low,1.1624334219238153,0.8546607739304413,28.3631764539182,0.640225818293052,604
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GraphWaveNet,12,tercile,Low,1.2180702940522514,0.8833479501111304,28.530203939288096,0.6249866317571123,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,AGCRN,12,tercile,Low,1.1478593563455763,0.8258280340848989,27.279567100271407,0.6033835023687621,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,DCRNN,12,tercile,Low,1.1175055556016287,0.7986481260835689,27.13725706101601,0.5590127031749281,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GConvLSTM,12,tercile,Low,1.2104358060822493,0.8919455521185157,30.029392375177654,0.6632799815717338,604
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GraphWaveNet,12,tercile,Low,1.0920139532378175,0.780625514972791,26.571201250774145,0.5544542526539266,604
+exp3_tensors,core_country,core_country,Core + Country,AGCRN,12,tercile,Low,1.1453848905319015,0.8312003392104413,27.505363840791908,0.6208077723450733,604
+exp3_tensors,core_country,core_country,Core + Country,DCRNN,12,tercile,Low,1.150871152475896,0.8212839953554297,27.98500602563778,0.571301034958283,604
+exp3_tensors,core_country,core_country,Core + Country,GConvLSTM,12,tercile,Low,1.269993209788383,0.9187839793961767,30.858482010378495,0.6269725647608335,604
+exp3_tensors,core_country,core_country,Core + Country,GraphWaveNet,12,tercile,Low,1.2528902146119587,0.9191656311822084,29.39117387348945,0.6860898511551324,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,AGCRN,12,tercile,Low,1.1387828882726447,0.8254478435088478,27.31843853240228,0.6034908366842776,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,DCRNN,12,tercile,Low,1.2170021467524694,0.9012223218692798,29.81802313054954,0.6840200910439911,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GConvLSTM,12,tercile,Low,1.2166574615604666,0.8831989480703799,28.981782263047933,0.6446140864843963,604
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GraphWaveNet,12,tercile,Low,1.2092753198517672,0.869055662466593,29.533119609144048,0.5819608001304762,604
+ablation_tensors,core_dom,core_dom,Core + Domain,AGCRN,12,tercile,Low,1.2056796034001465,0.8542962375979186,27.917371555811076,0.5846276540336688,604
+ablation_tensors,core_dom,core_dom,Core + Domain,DCRNN,12,tercile,Low,1.166174878683235,0.8397916583730256,28.171501412570706,0.5689910232030919,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GConvLSTM,12,tercile,Low,1.369285196055624,1.0128379612967224,31.607303081510764,0.786963550088305,604
+ablation_tensors,core_dom,core_dom,Core + Domain,GraphWaveNet,12,tercile,Low,1.1146702015986498,0.7842670180072816,26.850514339574964,0.5239125393040301,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,AGCRN,12,tercile,Low,1.157057223892047,0.844990185834287,28.4123673547949,0.6042547701483285,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,DCRNN,12,tercile,Low,1.1694073403775116,0.8433423172627624,28.309593287734934,0.5884882691819975,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GConvLSTM,12,tercile,Low,1.4870662043490273,1.0833845233149932,37.003021290061966,0.7756755943853214,604
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GraphWaveNet,12,tercile,Low,1.1352392898808148,0.8162454487130871,27.299915868675733,0.5757705025515311,604
+ablation_tensors,core_geo,core_geo,Core + Geo,AGCRN,12,tercile,Low,1.1352703453354192,0.8245166083954253,27.552150522502117,0.6072999536480068,604
+ablation_tensors,core_geo,core_geo,Core + Geo,DCRNN,12,tercile,Low,1.1558818498340417,0.8128984372192086,28.375086744246232,0.5273231397337682,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GConvLSTM,12,tercile,Low,1.1886602409643436,0.8666815129381903,28.660352779414673,0.61293568811982,604
+ablation_tensors,core_geo,core_geo,Core + Geo,GraphWaveNet,12,tercile,Low,1.1413253731064308,0.8069415321563038,27.439874467288494,0.5612084481708401,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,AGCRN,12,tercile,Low,1.1500654562972306,0.8348067813971288,27.659170923626576,0.6120919407796883,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,DCRNN,12,tercile,Low,1.1250968649700208,0.7938293732676663,27.440855288200694,0.530110067138537,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GConvLSTM,12,tercile,Low,1.2046860644823316,0.8704996185589792,28.75223472987268,0.6237451469151564,604
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GraphWaveNet,12,tercile,Low,1.1403149002792838,0.8023231652441906,27.190933166283298,0.5413674720533193,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,AGCRN,12,tercile,Low,1.1799962291843265,0.8691241009336682,28.57818005266835,0.6363454460990766,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,DCRNN,12,tercile,Low,1.1227236233347422,0.8027470744852343,27.623740592440516,0.5734915413323912,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GConvLSTM,12,tercile,Low,1.157866404790413,0.8379095166613175,27.504334622997735,0.6255908567704582,604
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GraphWaveNet,12,tercile,Low,1.1462757823475311,0.8104858897644884,27.65518289837847,0.546804918432622,604
+ablation_tensors,core_lags,core_lags,Core + Lags,AGCRN,12,tercile,Low,1.1498480632965244,0.8136237839849075,27.436165549868686,0.5302415397262159,604
+ablation_tensors,core_lags,core_lags,Core + Lags,DCRNN,12,tercile,Low,1.199664279114091,0.8523688706724531,29.903733632039735,0.5575437874376744,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GConvLSTM,12,tercile,Low,1.143165740762797,0.7973421733553825,27.18702830023761,0.5366406687774997,604
+ablation_tensors,core_lags,core_lags,Core + Lags,GraphWaveNet,12,tercile,Low,1.127104212572347,0.7700532140395021,26.14423516383328,0.4724264404949078,604
+ablation_tensors,core_only,core_only,Core (CPC only),AGCRN,12,tercile,Low,1.116923942183199,0.7960049379455837,27.13474141294654,0.5435819724737894,604
+ablation_tensors,core_only,core_only,Core (CPC only),DCRNN,12,tercile,Low,1.142933324226609,0.8231149557896328,27.930145092966807,0.5770046467271248,604
+ablation_tensors,core_only,core_only,Core (CPC only),GConvLSTM,12,tercile,Low,1.1518307627122266,0.8250933500536116,27.845680370234156,0.5754237198705914,604
+ablation_tensors,core_only,core_only,Core (CPC only),GraphWaveNet,12,tercile,Low,1.130506989071049,0.7898834325412007,27.22186286882972,0.5157462054309614,604
+ablation_tensors,core_search,core_search,Core + Search,AGCRN,12,tercile,Low,1.1734320580651472,0.8564708748561012,28.342062183544712,0.6129418657379864,604
+ablation_tensors,core_search,core_search,Core + Search,DCRNN,12,tercile,Low,1.157190780685239,0.8467963601249412,28.67497787411488,0.6211370290323138,604
+ablation_tensors,core_search,core_search,Core + Search,GConvLSTM,12,tercile,Low,1.173788663735213,0.8343877071575013,28.228916584925596,0.564759889973272,604
+ablation_tensors,core_search,core_search,Core + Search,GraphWaveNet,12,tercile,Low,1.1379883761340064,0.802663496067231,27.893649575417754,0.5421123040945979,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,AGCRN,12,tercile,Low,1.1604162952025,0.8447780171434467,27.944711739459493,0.6099783780995496,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,DCRNN,12,tercile,Low,1.136850323533652,0.8205477604237029,28.095678257062684,0.5920980079552975,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GConvLSTM,12,tercile,Low,1.1880142353352687,0.8618362466158803,29.22895964574817,0.6353898973786489,604
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GraphWaveNet,12,tercile,Low,1.1431550714361298,0.8087030837079489,27.725195892567474,0.5516416644337978,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,AGCRN,12,tercile,Low,1.1771777175863718,0.8412739925997601,28.159460762147067,0.6184275331047524,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,DCRNN,12,tercile,Low,1.209397089275921,0.8910891094129297,29.7695771528955,0.6625927926954736,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GConvLSTM,12,tercile,Low,1.14249981623117,0.8168087322408498,27.525278304979516,0.5554781281061274,604
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GraphWaveNet,12,tercile,Low,1.1249387682485223,0.7954825670825681,27.338930792176203,0.5242183363283557,604
+exp1_tensors,exp1_tensors,all_features,All Features,A3TGCN,12,tercile,Medium,1.9347074880633033,1.3382103500987494,47.442160568427795,0.9794118739050093,603
+exp2_tensors,exp2_tensors,all_features,All Features,A3TGCN,12,tercile,Medium,1.885451669911693,1.3110424321946486,46.59801491209766,0.9565158274979946,603
+ablation_tensors,all_features,all_features,All Features,AGCRN,12,tercile,Medium,1.5372043458096496,1.062111687465983,37.81338901171137,0.7376077354115758,603
+exp1_tensors,exp1_tensors,all_features,All Features,AGCRN,12,tercile,Medium,1.5024249579643694,1.0241113151097683,36.552682824839856,0.6911935412461605,603
+exp2_tensors,exp2_tensors,all_features,All Features,AGCRN,12,tercile,Medium,1.5010488951535146,1.0219863539255658,37.36206920698905,0.7107748167212258,603
+ablation_tensors,all_features,all_features,All Features,DCRNN,12,tercile,Medium,1.5471581772305025,1.0573757762855216,38.22497298557333,0.7095437427534752,603
+exp1_tensors,exp1_tensors,all_features,All Features,DCRNN,12,tercile,Medium,1.5976967977765266,1.072768591343209,38.23104166846175,0.6784399230369744,603
+exp2_tensors,exp2_tensors,all_features,All Features,DCRNN,12,tercile,Medium,1.5451114858288295,1.0462073154901919,37.1549631455708,0.6885765857436748,603
+ablation_tensors,all_features,all_features,All Features,GConvLSTM,12,tercile,Medium,1.8365023289353046,1.2635304812899633,44.96937408550425,0.9242438817631564,603
+exp1_tensors,exp1_tensors,all_features,All Features,GConvLSTM,12,tercile,Medium,1.840560713401861,1.256779332139964,44.502663808087156,0.8835366049297875,603
+exp2_tensors,exp2_tensors,all_features,All Features,GConvLSTM,12,tercile,Medium,1.5849576319892698,1.1426966992506116,39.67214540034909,0.8121966479372884,603
+ablation_tensors,all_features,all_features,All Features,GraphWaveNet,12,tercile,Medium,1.5333352391473436,1.0249718412236366,36.266103722759766,0.6806958650480182,603
+exp1_tensors,exp1_tensors,all_features,All Features,GraphWaveNet,12,tercile,Medium,1.6551181397278865,1.0855082538505907,37.933768797548176,0.6717646061364189,603
+exp2_tensors,exp2_tensors,all_features,All Features,GraphWaveNet,12,tercile,Medium,1.6907657220020502,1.1211791942531604,39.30718530302996,0.7027072736987083,603
+exp1_tensors,exp1_tensors,all_features,All Features,MTGNN,12,tercile,Medium,1.9543139447561995,1.3272193850613903,48.19519041143053,0.8973983548725202,603
+exp2_tensors,exp2_tensors,all_features,All Features,MTGNN,12,tercile,Medium,2.020241200120201,1.4025857828908526,43.94031171551567,0.9000221244083353,603
+exp1_tensors,exp1_tensors,all_features,All Features,STConv,12,tercile,Medium,1.559175797923065,1.0601346130412315,37.864573694689405,0.7220813698422675,603
+exp2_tensors,exp2_tensors,all_features,All Features,STConv,12,tercile,Medium,1.5319439262693104,1.0606457353942034,38.18808047502258,0.7601441555983408,603
+exp1_tensors,exp1_tensors,all_features,All Features,STGCN,12,tercile,Medium,1.568956172021265,1.0351952105864017,36.36851301361176,0.6712930897772011,603
+exp2_tensors,exp2_tensors,all_features,All Features,STGCN,12,tercile,Medium,2.049792888586177,1.429508529147127,50.600478974875486,1.0401749737498627,603
+exp3_tensors,core_city,core_city,Core + City,AGCRN,12,tercile,Medium,1.4519911799116958,1.0168925597768714,36.22285811847817,0.728117498346504,603
+exp3_tensors,core_city,core_city,Core + City,DCRNN,12,tercile,Medium,1.4198919746995484,0.9893711240059386,35.64477249562512,0.6932882393328037,603
+exp3_tensors,core_city,core_city,Core + City,GConvLSTM,12,tercile,Medium,1.5003796170591974,1.0609578124720573,37.9717888395271,0.7691607270859819,603
+exp3_tensors,core_city,core_city,Core + City,GraphWaveNet,12,tercile,Medium,1.4697234608135135,1.045728394807754,37.264750115754275,0.7354528714533717,603
+exp3_tensors,core_continent,core_continent,Core + Continent,AGCRN,12,tercile,Medium,1.416971204721504,1.0003100366264264,35.677743132632585,0.7394036851438583,603
+exp3_tensors,core_continent,core_continent,Core + Continent,DCRNN,12,tercile,Medium,1.4742216542364732,1.0013331335497069,35.311037555906665,0.6874648480068737,603
+exp3_tensors,core_continent,core_continent,Core + Continent,GConvLSTM,12,tercile,Medium,1.473192143373014,1.0270127115312895,36.68180872948895,0.7290261604924946,603
+exp3_tensors,core_continent,core_continent,Core + Continent,GraphWaveNet,12,tercile,Medium,1.4288943749981229,1.0046728783960372,35.715231042118,0.7014669588999655,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,AGCRN,12,tercile,Medium,1.4194868007162966,0.981843835385731,35.16979062684536,0.6655257110238817,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,DCRNN,12,tercile,Medium,1.4569947634756386,1.0189520523650033,36.065136151995326,0.6942792312534207,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GConvLSTM,12,tercile,Medium,1.479849144794966,1.03414855309269,36.778269476696615,0.7234207135671465,603
+exp3_tensors,core_continent_search,core_continent_search,Core + Continent + Search,GraphWaveNet,12,tercile,Medium,1.4449380317783123,1.03098817724885,36.385513266778695,0.7476512475478969,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,AGCRN,12,tercile,Medium,1.4418506973775171,1.004043956768897,35.48429339289484,0.6554379774759029,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,DCRNN,12,tercile,Medium,1.4735692525673552,0.994416790456825,35.126165837251094,0.6700428763850463,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GConvLSTM,12,tercile,Medium,1.5324893467879415,1.0527140618780153,37.386621648833625,0.7214678961432077,603
+exp3_tensors,core_continent_sempc,core_continent_sempc,Core + Continent + Sem PC,GraphWaveNet,12,tercile,Medium,1.4757489416018794,1.011573481850405,36.19025499074164,0.7109732066550745,603
+exp3_tensors,core_country,core_country,Core + Country,AGCRN,12,tercile,Medium,1.4307517221487231,1.0086357340551744,35.922181530732175,0.6976043648075727,603
+exp3_tensors,core_country,core_country,Core + Country,DCRNN,12,tercile,Medium,1.460626419795179,1.01115384719554,35.9139305230226,0.6773583526156743,603
+exp3_tensors,core_country,core_country,Core + Country,GConvLSTM,12,tercile,Medium,1.5665247054950202,1.085721177742544,38.26532806075,0.7737431866586553,603
+exp3_tensors,core_country,core_country,Core + Country,GraphWaveNet,12,tercile,Medium,1.4477244808707093,1.0331341872284343,36.31612262855939,0.7240785277001871,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,AGCRN,12,tercile,Medium,1.4320102017813496,1.006600967028161,35.888848482690896,0.7160917445521431,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,DCRNN,12,tercile,Medium,1.4907530814907521,1.0742311558807063,37.33653028010383,0.7718679631374255,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GConvLSTM,12,tercile,Medium,1.4983104577509125,1.0527374213729217,37.08487988817637,0.7501679754150006,603
+exp3_tensors,core_country_search,core_country_search,Core + Country + Search,GraphWaveNet,12,tercile,Medium,1.503255368515467,1.03232430879958,36.66695809943427,0.737804300578282,603
+ablation_tensors,core_dom,core_dom,Core + Domain,AGCRN,12,tercile,Medium,1.4622670730526475,1.0050648452314388,35.38954504423924,0.6811675994192687,603
+ablation_tensors,core_dom,core_dom,Core + Domain,DCRNN,12,tercile,Medium,1.511722351214206,1.0370879424896389,36.29983851936008,0.7102567559745321,603
+ablation_tensors,core_dom,core_dom,Core + Domain,GConvLSTM,12,tercile,Medium,1.5865409966989943,1.1365438518405875,38.44770471217115,0.7728460316024304,603
+ablation_tensors,core_dom,core_dom,Core + Domain,GraphWaveNet,12,tercile,Medium,1.5167588584907006,1.007082543752866,35.649398319639666,0.623704414560128,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,AGCRN,12,tercile,Medium,1.4750093318482795,1.0500050313675826,37.23206683013039,0.724781434845033,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,DCRNN,12,tercile,Medium,1.538434163275786,1.0545457652843648,36.72624589043289,0.6958961129880095,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GConvLSTM,12,tercile,Medium,1.8833011159536903,1.307059222863826,46.429771896870584,0.9687394083059142,603
+ablation_tensors,core_dtw,core_dtw,Core + DTW,GraphWaveNet,12,tercile,Medium,1.443989006217365,0.9947448035958689,35.59539431518078,0.662725973849609,603
+ablation_tensors,core_geo,core_geo,Core + Geo,AGCRN,12,tercile,Medium,1.4338320648270502,0.9988053824225218,35.514975761406234,0.6758544289934596,603
+ablation_tensors,core_geo,core_geo,Core + Geo,DCRNN,12,tercile,Medium,1.5214776937472925,1.0084566385643476,36.605524875669445,0.6579323537100746,603
+ablation_tensors,core_geo,core_geo,Core + Geo,GConvLSTM,12,tercile,Medium,1.4767793734804024,1.0092908588385936,35.6769727176118,0.6907034208925412,603
+ablation_tensors,core_geo,core_geo,Core + Geo,GraphWaveNet,12,tercile,Medium,1.5126588372132554,1.0103287799768164,35.85432468302617,0.683052210115477,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,AGCRN,12,tercile,Medium,1.429215282035956,1.0057343568569288,35.885102128484654,0.7117053773421862,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,DCRNN,12,tercile,Medium,1.4810022422101445,0.9981839045950368,35.82641878282948,0.6764019165717765,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GConvLSTM,12,tercile,Medium,1.536733358531284,1.050312535295161,36.784876204367094,0.7505656048798217,603
+ablation2_tensors,core_geo_search,core_geo_search,Core + Geo + Search,GraphWaveNet,12,tercile,Medium,1.5323050043042645,1.0271871597738784,36.35209546849823,0.6810711342673359,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,AGCRN,12,tercile,Medium,1.4603826036976033,1.0400803840307558,36.55897221666497,0.7486394424970444,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,DCRNN,12,tercile,Medium,1.4955683338008876,1.0185269475919305,36.56717673875296,0.6835041751826123,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GConvLSTM,12,tercile,Medium,1.4828972674950032,1.0133549075937742,35.67443935179192,0.6695559001654887,603
+ablation2_tensors,core_geo_sem_pc,core_geo_sem_pc,Core + Geo + Sem PC,GraphWaveNet,12,tercile,Medium,1.549566677696704,1.025529267387143,36.266161192188775,0.6835888309134295,603
+ablation_tensors,core_lags,core_lags,Core + Lags,AGCRN,12,tercile,Medium,1.5309038382777973,1.0327408778674232,36.29673215836143,0.6908092380133599,603
+ablation_tensors,core_lags,core_lags,Core + Lags,DCRNN,12,tercile,Medium,1.5535482825770384,1.025804876458591,36.73546431913991,0.6557923639719236,603
+ablation_tensors,core_lags,core_lags,Core + Lags,GConvLSTM,12,tercile,Medium,1.5912358946898346,1.019357463048322,35.754893587298895,0.6029834447691398,603
+ablation_tensors,core_lags,core_lags,Core + Lags,GraphWaveNet,12,tercile,Medium,1.5371009248053116,1.0070939784118043,35.41342750036182,0.6085964674074695,603
+ablation_tensors,core_only,core_only,Core (CPC only),AGCRN,12,tercile,Medium,1.4968094654217483,1.013607988920195,35.784677181134576,0.6459584289824791,603
+ablation_tensors,core_only,core_only,Core (CPC only),DCRNN,12,tercile,Medium,1.497952527312119,1.0294757990741992,36.53965258691797,0.6991474980867256,603
+ablation_tensors,core_only,core_only,Core (CPC only),GConvLSTM,12,tercile,Medium,1.5251711045510974,1.027217429859381,36.14601242695319,0.6966301585137549,603
+ablation_tensors,core_only,core_only,Core (CPC only),GraphWaveNet,12,tercile,Medium,1.5374334792702342,1.0201482726416002,36.19325159698562,0.6507373796907503,603
+ablation_tensors,core_search,core_search,Core + Search,AGCRN,12,tercile,Medium,1.4341167168112476,1.0064780011980168,35.82824915038647,0.6911864851552219,603
+ablation_tensors,core_search,core_search,Core + Search,DCRNN,12,tercile,Medium,1.517085250663805,1.0512899227909236,36.918461480896816,0.713036172052077,603
+ablation_tensors,core_search,core_search,Core + Search,GConvLSTM,12,tercile,Medium,1.5435137569877746,1.0306323287609438,36.34060084486007,0.6585866610126823,603
+ablation_tensors,core_search,core_search,Core + Search,GraphWaveNet,12,tercile,Medium,1.5633248915755151,1.0386103117145418,36.790229172931994,0.6658063377129841,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,AGCRN,12,tercile,Medium,1.4511341254388432,1.0127763985309803,35.71864960484852,0.703840859359663,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,DCRNN,12,tercile,Medium,1.5070735133030635,1.0268648563000933,36.44605588662496,0.7126960528704442,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GConvLSTM,12,tercile,Medium,1.5764930662403016,1.0611527925769626,37.52450140566829,0.7604185216125015,603
+ablation_tensors,core_sem_pc,core_sem_pc,Core + Sem PC,GraphWaveNet,12,tercile,Medium,1.5561969031583527,1.0389873907183662,36.77811319435577,0.6711793825424708,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,AGCRN,12,tercile,Medium,1.4918803999402859,1.015949317721149,36.024773676848184,0.6846728596306204,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,DCRNN,12,tercile,Medium,1.4858878412544636,1.0584238576333196,37.20329065801407,0.7465769487624261,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GConvLSTM,12,tercile,Medium,1.4998104436082123,1.0205755123707565,36.36433882076807,0.6709621201222853,603
+ablation_tensors,core_sim25,core_sim25,Core + Sim25,GraphWaveNet,12,tercile,Medium,1.5266710255146834,1.0159503410896586,35.90820455207792,0.6443968451926763,603

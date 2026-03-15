@@ -1,6 +1,7 @@
 # data folders
 /data/
 /results/tensors/
+/results/tensors.zip 
 /results/output/
 
 # rest of python .gitignore template
