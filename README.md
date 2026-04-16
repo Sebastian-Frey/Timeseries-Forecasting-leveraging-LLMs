@@ -40,7 +40,7 @@ drafts, exploratory analyses, and variants.
 | 2 | EDA + keyword-unification / fill proofs | `EDA.ipynb`, `Collapse_proof.ipynb`, `backward_forward_fill_proof.ipynb` |
 | 3 | Classical baselines (RF, XGB, LGBM, MLP, LSTM, GRU, SARIMAX, TabPFN-TS) | `benchmark_models.ipynb` |
 | 4 | Spatio-temporal GNNs on the LLM-derived keyword graph | `model_training_and_tuning.ipynb` + `knn_calculation/*.py` |
-| 5 | Combined feature pipeline (semantic + DTW neighbours, domain share, geo augmentation, feature engineering) | `01_data_creation_base.ipynb` → `feature engineering.ipynb` |
+| 5 | Combined feature pipeline, keyword-domain GNN training, ablations, and the paper's competitive-frontier analysis | `01_data_creation_base.ipynb` → `feature engineering.ipynb`, `gnn_training_and_tuning_keyword_domain.ipynb`, `paper_models_testing_ablation.ipynb`, `tensors_to_results.ipynb`, `competitive_frontier_analysis.ipynb` |
 | 6 | LLM-native forecasters (Prophet, TimeGPT, Moirai) | `prophet/*`, `timegpt/*`, `moirai/*` |
 
 ### Not included (intentionally)
@@ -93,7 +93,7 @@ drafts, exploratory analyses, and variants.
 | 2 | `2_EDA/` | Descriptive statistics and methodological "proof" notebooks for keyword unification and backward/forward fill. | all |
 | 3 | `3_Benchmarks/` | Classical baselines: RandomForest, XGBoost, LightGBM, MLP, LSTM, GRU, SARIMAX(1,1,0), TabPFN-TS zero-shot. Horizons 1/6/12 weeks × three exogenous modes. | RQ1, RQ2 |
 | 4 | `4_GNN benchmarking/` | Spatio-temporal GNNs (DCRNN, STGCN, A3TGCN, GConvLSTM, STConv, MTGNN, AGCRN, GraphWaveNet) on an LLM-derived KNN keyword graph. Includes the graph-construction scripts. | RQ4, RQ5 |
-| 5 | `5_Combined_approach/` | Full feature pipeline used by the combined LLM-augmented model: semantic + DTW neighbours, domain market shares, geo augmentation, feature engineering with explicit leakage controls. | RQ1, RQ2, RQ3, RQ5 |
+| 5 | `5_Combined_approach/` | Feature pipeline (semantic + DTW neighbours, domain market shares, geo augmentation, leakage-aware feature engineering); keyword-domain GNN training loop for the 6 `torch_geometric_temporal` variants; feature-group ablation; tensor-to-metrics post-processing; and the paper's competitive-frontier analysis. | RQ1, RQ2, RQ3, RQ4, RQ5 |
 | 6 | `6_LLM_forecasters/` | LLM-native forecasters (Prophet, TimeGPT, Moirai) consuming Stage-5 feature tables. Ported from the thesis workbench with unified data paths and `.env`-based secret handling. | RQ1, RQ2 |
 
 ### Data flow
@@ -133,10 +133,30 @@ drafts, exploratory analyses, and variants.
  final_forecast_ready.parquet    (76 columns, forecast-ready)
             │
             ├─► 3_Benchmarks/benchmark_models.ipynb
+            │        classical baselines (RF, XGB, LGBM, MLP, LSTM, GRU, SARIMAX, TabPFN-TS)
+            │
             ├─► 4_GNN benchmarking/model_training_and_tuning.ipynb
-            │        consumes KNN graph from
-            │        4_GNN benchmarking/knn_calculation/
+            │        consumes KNN graph from 4_GNN benchmarking/knn_calculation/
+            │
+            ├─► 5_Combined_approach/gnn_training_and_tuning_keyword_domain.ipynb
+            │        6 torch_geometric_temporal variants × horizons {1, 6, 12}
+            │        → results/output/tuning_results_h{1,6,12}.csv
+            │        → results/tensors/{Model}_h{H}_{predictions,errors,targets}.pt
+            │
+            ├─► 5_Combined_approach/paper_models_testing_ablation.ipynb
+            │        feature-group ablation (Core / +Lags / +Search / +Domain / +DTW / +Geo)
+            │        → results/output/ablation_experiment_results_h{1,12}.csv
+            │
+            ├─► 5_Combined_approach/tensors_to_results.ipynb
+            │        post-processes saved tensors → per-keyword sMAPE/RMSE/MAE
+            │        → ablation_detailed_results_v3.csv, final_detailed_metrics.csv
+            │
+            ├─► 5_Combined_approach/competitive_frontier_analysis.ipynb
+            │        segments model performance by CPC volatility × mean-CPC quadrants
+            │        (the paper's "competitive frontier" evidence)
+            │
             └─► 6_LLM_forecasters/{prophet,timegpt,moirai}/*.ipynb
+                     foundation-model forecasters (Prophet, TimeGPT, Moirai)
 ```
 
 ## Keyword graph construction (Stage 4)

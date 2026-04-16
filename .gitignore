@@ -1,8 +1,9 @@
 # data folder
 /data/
-/data/
+
+# GNN run artefacts
 /results/tensors/
-/results/tensors.zip 
+/results/tensors.zip
 /results/output/
 
 # Claude Code local project guide (not shared)
