@@ -5,6 +5,10 @@
 /results/tensors.zip 
 /results/output/
 
+# Claude Code local project guide (not shared)
+CLAUDE.md
+.claude/
+
 # rest of python .gitignore template
 # Byte-compiled / optimized / DLL files
 __pycache__/
